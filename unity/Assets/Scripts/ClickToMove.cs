@@ -3,6 +3,9 @@ using System.Collections;
 
 public class ClickToMove : MonoBehaviour 
 {
+	//int life;
+	//int damage;
+
 	public float speed;
 	private Vector3 position;
 	public CharacterController controllerMove;
@@ -33,7 +36,6 @@ public class ClickToMove : MonoBehaviour
 		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 
 		if (Physics.Raycast (ray, out hit, 1000)) 
-		
 		{
 			position = new Vector3(hit.point.x , hit.point.y , hit.point.z);
 			//Debug.Log(position);
@@ -54,4 +56,7 @@ public class ClickToMove : MonoBehaviour
 
 	}
 
+	//void attack()
+	//void collide()
+	//bool dead()
 }
