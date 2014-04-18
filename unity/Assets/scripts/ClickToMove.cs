@@ -6,7 +6,7 @@ public class ClickToMove : MonoBehaviour
 	public int life = 100;
 	public int damage;
 
-	public Transform mover;
+	//public Transform mover;
 	public float speed = 10;
 	public float SnapTo = 0.5f; //how close we get before snapping to the desination
 	private Vector3 position;
@@ -46,7 +46,11 @@ public class ClickToMove : MonoBehaviour
 	void movePlayerToPosition(){
 	if(Vector3.Distance(this.transform.position , position) >1){
 		Quaternion newRotation = Quaternion.LookRotation(position-transform.position);
+<<<<<<< HEAD
 		newRotation *= Quaternion.Euler(0, -90, 0);
+=======
+				newRotation *= Quaternion.Euler(0, -90, 0);
+>>>>>>> 508bf3511b4efacfbc31330935ef5b1fbe5fe247
 	
 		newRotation.x = 0f;
 		newRotation.z = 0f;
