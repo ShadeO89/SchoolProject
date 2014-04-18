@@ -3,10 +3,12 @@ using System.Collections;
 
 public class ClickToMove : MonoBehaviour 
 {
-	//int life;
-	//int damage;
+	public int life = 100;
+	public int damage;
 
+	public Transform mover;
 	public float speed = 10;
+	public float SnapTo = 0.5f; //how close we get before snapping to the desination
 	private Vector3 position;
 	public CharacterController controllerMove;
 
@@ -44,19 +46,29 @@ public class ClickToMove : MonoBehaviour
 	void movePlayerToPosition(){
 	if(Vector3.Distance(this.transform.position , position) >1){
 		Quaternion newRotation = Quaternion.LookRotation(position-transform.position);
+				//newRotation *= Quaternion.Euler(0, 0, 0);
 	
 		newRotation.x = 0f;
 		newRotation.z = 0f;
 
 		this.transform.rotation = Quaternion.Slerp (transform.rotation, newRotation, Time.deltaTime);
-		controllerMove.SimpleMove (transform.forward * speed);
+		
+			//this.transform.rotation = (0, 90, 0);
+
+			controllerMove.SimpleMove (transform.forward * speed);
 	
 		}
+	/*	if (Vector3.Distance(mover.position, position) < SnapTo) //are we within snap range?
+			movePlayerToPosition.position = position; //snap to destination
+		else 
+			movePlayerToPosition.position = Vector3.MoveTowards(mover.transform.position, destination, Time.deltaTime * 10); //move toward destination
+	}*/
 	
 
-	}
+}
+}
 
 	//void attack()
 	//void collide()
 	//bool dead()
-}
+
