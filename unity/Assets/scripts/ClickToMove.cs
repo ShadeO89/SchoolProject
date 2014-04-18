@@ -46,7 +46,7 @@ public class ClickToMove : MonoBehaviour
 	void movePlayerToPosition(){
 	if(Vector3.Distance(this.transform.position , position) >1){
 		Quaternion newRotation = Quaternion.LookRotation(position-transform.position);
-				//newRotation *= Quaternion.Euler(0, 0, 0);
+		newRotation *= Quaternion.Euler(0, -90, 0);
 	
 		newRotation.x = 0f;
 		newRotation.z = 0f;
@@ -55,7 +55,7 @@ public class ClickToMove : MonoBehaviour
 		
 			//this.transform.rotation = (0, 90, 0);
 
-			controllerMove.SimpleMove (transform.forward * speed);
+			controllerMove.SimpleMove (transform.right * speed);
 	
 		}
 	/*	if (Vector3.Distance(mover.position, position) < SnapTo) //are we within snap range?
