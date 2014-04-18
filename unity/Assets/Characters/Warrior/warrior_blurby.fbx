@@ -10,10 +10,10 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2014
 		Month: 04
-		Day: 16
-		Hour: 14
-		Minute: 01
-		Second: 02
+		Day: 18
+		Hour: 17
+		Minute: 39
+		Second: 32
 		Millisecond: 0
 	}
 	Creator: "FBX SDK/FBX Plugins build 20070228"
@@ -21,7 +21,7 @@ FBXHeaderExtension:  {
 		FlagPLE: 0
 	}
 }
-CreationTime: "2014-04-16 14:01:02:000"
+CreationTime: "2014-04-18 17:39:32:000"
 Creator: "Blender version 2.69 (sub 0)"
 
 ; Object definitions
@@ -7336,157 +7336,157 @@ Relations:  {
 	}
 	Deformer: "SubDeformer::Cluster left_arm Bone", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone", "Cluster" {
+	Deformer: "SubDeformer::Cluster sword Bone", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_leg Bone", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster sword Bone", "Cluster" {
-	}
 	Deformer: "SubDeformer::Cluster right_arm Bone", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body Bone", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_001", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_arm Bone_001", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_001", "Cluster" {
+	Deformer: "SubDeformer::Cluster sword Bone_001", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_leg Bone_001", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster sword Bone_001", "Cluster" {
-	}
 	Deformer: "SubDeformer::Cluster right_arm Bone_001", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body Bone_001", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_002", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_arm Bone_002", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_002", "Cluster" {
+	Deformer: "SubDeformer::Cluster sword Bone_002", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_leg Bone_002", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster sword Bone_002", "Cluster" {
-	}
 	Deformer: "SubDeformer::Cluster right_arm Bone_002", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body Bone_002", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_003", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_arm Bone_003", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_003", "Cluster" {
+	Deformer: "SubDeformer::Cluster sword Bone_003", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_leg Bone_003", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster sword Bone_003", "Cluster" {
-	}
 	Deformer: "SubDeformer::Cluster right_arm Bone_003", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body Bone_003", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_004", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_arm Bone_004", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_004", "Cluster" {
+	Deformer: "SubDeformer::Cluster sword Bone_004", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_leg Bone_004", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster sword Bone_004", "Cluster" {
-	}
 	Deformer: "SubDeformer::Cluster right_arm Bone_004", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body Bone_004", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_005", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_arm Bone_005", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_005", "Cluster" {
+	Deformer: "SubDeformer::Cluster sword Bone_005", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_leg Bone_005", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster sword Bone_005", "Cluster" {
-	}
 	Deformer: "SubDeformer::Cluster right_arm Bone_005", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body Bone_005", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_006", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_arm Bone_006", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_006", "Cluster" {
+	Deformer: "SubDeformer::Cluster sword Bone_006", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_leg Bone_006", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster sword Bone_006", "Cluster" {
-	}
 	Deformer: "SubDeformer::Cluster right_arm Bone_006", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body Bone_006", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_007", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_arm Bone_007", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_007", "Cluster" {
+	Deformer: "SubDeformer::Cluster sword Bone_007", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_leg Bone_007", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster sword Bone_007", "Cluster" {
-	}
 	Deformer: "SubDeformer::Cluster right_arm Bone_007", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body Bone_007", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_008", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_arm Bone_008", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_008", "Cluster" {
+	Deformer: "SubDeformer::Cluster sword Bone_008", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_leg Bone_008", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster sword Bone_008", "Cluster" {
-	}
 	Deformer: "SubDeformer::Cluster right_arm Bone_008", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body Bone_008", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_009", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_arm Bone_009", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_009", "Cluster" {
+	Deformer: "SubDeformer::Cluster sword Bone_009", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_leg Bone_009", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster sword Bone_009", "Cluster" {
-	}
 	Deformer: "SubDeformer::Cluster right_arm Bone_009", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body Bone_009", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_010", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_arm Bone_010", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_010", "Cluster" {
+	Deformer: "SubDeformer::Cluster sword Bone_010", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_leg Bone_010", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster sword Bone_010", "Cluster" {
-	}
 	Deformer: "SubDeformer::Cluster right_arm Bone_010", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body Bone_010", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_011", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_arm Bone_011", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_011", "Cluster" {
+	Deformer: "SubDeformer::Cluster sword Bone_011", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_leg Bone_011", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster sword Bone_011", "Cluster" {
-	}
 	Deformer: "SubDeformer::Cluster right_arm Bone_011", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body Bone_011", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_012", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_arm Bone_012", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_012", "Cluster" {
+	Deformer: "SubDeformer::Cluster sword Bone_012", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster left_leg Bone_012", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster sword Bone_012", "Cluster" {
-	}
 	Deformer: "SubDeformer::Cluster right_arm Bone_012", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body Bone_012", "Cluster" {
 	}
 }
 
@@ -7515,160 +7515,160 @@ Connections:  {
 	Connect: "OO", "Deformer::Skin body", "Model::body"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone", "Deformer::Skin right_leg"
 	Connect: "OO", "SubDeformer::Cluster left_arm Bone", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster sword Bone", "Deformer::Skin sword"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster right_arm Bone", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_001", "Deformer::Skin right_leg"
 	Connect: "OO", "SubDeformer::Cluster left_arm Bone_001", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_001", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_001", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster sword Bone_001", "Deformer::Skin sword"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_001", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster right_arm Bone_001", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_001", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_002", "Deformer::Skin right_leg"
 	Connect: "OO", "SubDeformer::Cluster left_arm Bone_002", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_002", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_002", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster sword Bone_002", "Deformer::Skin sword"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_002", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster right_arm Bone_002", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_002", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_003", "Deformer::Skin right_leg"
 	Connect: "OO", "SubDeformer::Cluster left_arm Bone_003", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_003", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_003", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster sword Bone_003", "Deformer::Skin sword"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_003", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster right_arm Bone_003", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_003", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_004", "Deformer::Skin right_leg"
 	Connect: "OO", "SubDeformer::Cluster left_arm Bone_004", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_004", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_004", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster sword Bone_004", "Deformer::Skin sword"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_004", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster right_arm Bone_004", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_004", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_005", "Deformer::Skin right_leg"
 	Connect: "OO", "SubDeformer::Cluster left_arm Bone_005", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_005", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_005", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster sword Bone_005", "Deformer::Skin sword"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_005", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster right_arm Bone_005", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_005", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_006", "Deformer::Skin right_leg"
 	Connect: "OO", "SubDeformer::Cluster left_arm Bone_006", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_006", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_006", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster sword Bone_006", "Deformer::Skin sword"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_006", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster right_arm Bone_006", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_006", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_007", "Deformer::Skin right_leg"
 	Connect: "OO", "SubDeformer::Cluster left_arm Bone_007", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_007", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_007", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster sword Bone_007", "Deformer::Skin sword"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_007", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster right_arm Bone_007", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_007", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_008", "Deformer::Skin right_leg"
 	Connect: "OO", "SubDeformer::Cluster left_arm Bone_008", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_008", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_008", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster sword Bone_008", "Deformer::Skin sword"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_008", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster right_arm Bone_008", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_008", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_009", "Deformer::Skin right_leg"
 	Connect: "OO", "SubDeformer::Cluster left_arm Bone_009", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_009", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_009", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster sword Bone_009", "Deformer::Skin sword"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_009", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster right_arm Bone_009", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_009", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_010", "Deformer::Skin right_leg"
 	Connect: "OO", "SubDeformer::Cluster left_arm Bone_010", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_010", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_010", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster sword Bone_010", "Deformer::Skin sword"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_010", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster right_arm Bone_010", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_010", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_011", "Deformer::Skin right_leg"
 	Connect: "OO", "SubDeformer::Cluster left_arm Bone_011", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_011", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_011", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster sword Bone_011", "Deformer::Skin sword"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_011", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster right_arm Bone_011", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_011", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_012", "Deformer::Skin right_leg"
 	Connect: "OO", "SubDeformer::Cluster left_arm Bone_012", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_012", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_012", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster sword Bone_012", "Deformer::Skin sword"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_012", "Deformer::Skin left_leg"
 	Connect: "OO", "SubDeformer::Cluster right_arm Bone_012", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_012", "Deformer::Skin body"
 	Connect: "OO", "Model::Bone", "SubDeformer::Cluster right_leg Bone"
 	Connect: "OO", "Model::Bone", "SubDeformer::Cluster left_arm Bone"
-	Connect: "OO", "Model::Bone", "SubDeformer::Cluster body Bone"
-	Connect: "OO", "Model::Bone", "SubDeformer::Cluster left_leg Bone"
 	Connect: "OO", "Model::Bone", "SubDeformer::Cluster sword Bone"
+	Connect: "OO", "Model::Bone", "SubDeformer::Cluster left_leg Bone"
 	Connect: "OO", "Model::Bone", "SubDeformer::Cluster right_arm Bone"
+	Connect: "OO", "Model::Bone", "SubDeformer::Cluster body Bone"
 	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster right_leg Bone_001"
 	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster left_arm Bone_001"
-	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster body Bone_001"
-	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster left_leg Bone_001"
 	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster sword Bone_001"
+	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster left_leg Bone_001"
 	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster right_arm Bone_001"
+	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster body Bone_001"
 	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster right_leg Bone_002"
 	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster left_arm Bone_002"
-	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster body Bone_002"
-	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster left_leg Bone_002"
 	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster sword Bone_002"
+	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster left_leg Bone_002"
 	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster right_arm Bone_002"
+	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster body Bone_002"
 	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster right_leg Bone_003"
 	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster left_arm Bone_003"
-	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster body Bone_003"
-	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster left_leg Bone_003"
 	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster sword Bone_003"
+	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster left_leg Bone_003"
 	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster right_arm Bone_003"
+	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster body Bone_003"
 	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster right_leg Bone_004"
 	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster left_arm Bone_004"
-	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster body Bone_004"
-	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster left_leg Bone_004"
 	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster sword Bone_004"
+	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster left_leg Bone_004"
 	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster right_arm Bone_004"
+	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster body Bone_004"
 	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster right_leg Bone_005"
 	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster left_arm Bone_005"
-	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster body Bone_005"
-	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster left_leg Bone_005"
 	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster sword Bone_005"
+	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster left_leg Bone_005"
 	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster right_arm Bone_005"
+	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster body Bone_005"
 	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster right_leg Bone_006"
 	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster left_arm Bone_006"
-	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster body Bone_006"
-	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster left_leg Bone_006"
 	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster sword Bone_006"
+	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster left_leg Bone_006"
 	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster right_arm Bone_006"
+	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster body Bone_006"
 	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster right_leg Bone_007"
 	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster left_arm Bone_007"
-	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster body Bone_007"
-	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster left_leg Bone_007"
 	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster sword Bone_007"
+	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster left_leg Bone_007"
 	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster right_arm Bone_007"
+	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster body Bone_007"
 	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster right_leg Bone_008"
 	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster left_arm Bone_008"
-	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster body Bone_008"
-	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster left_leg Bone_008"
 	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster sword Bone_008"
+	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster left_leg Bone_008"
 	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster right_arm Bone_008"
+	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster body Bone_008"
 	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster right_leg Bone_009"
 	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster left_arm Bone_009"
-	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster body Bone_009"
-	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster left_leg Bone_009"
 	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster sword Bone_009"
+	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster left_leg Bone_009"
 	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster right_arm Bone_009"
+	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster body Bone_009"
 	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster right_leg Bone_010"
 	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster left_arm Bone_010"
-	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster body Bone_010"
-	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster left_leg Bone_010"
 	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster sword Bone_010"
+	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster left_leg Bone_010"
 	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster right_arm Bone_010"
+	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster body Bone_010"
 	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster right_leg Bone_011"
 	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster left_arm Bone_011"
-	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster body Bone_011"
-	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster left_leg Bone_011"
 	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster sword Bone_011"
+	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster left_leg Bone_011"
 	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster right_arm Bone_011"
+	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster body Bone_011"
 	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster right_leg Bone_012"
 	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster left_arm Bone_012"
-	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster body Bone_012"
-	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster left_leg Bone_012"
 	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster sword Bone_012"
+	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster left_leg Bone_012"
 	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster right_arm Bone_012"
+	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster body Bone_012"
 	Connect: "OO", "Model::Bone", "Model::Armature"
 	Connect: "OO", "Model::Bone_001", "Model::Armature"
 	Connect: "OO", "Model::Bone_002", "Model::Bone_001"
@@ -7727,11 +7727,11 @@ Takes:  {
 				}
 				Channel: "R" {
 					Channel: "X" {
-						Default: 90.000002504348856
+						Default: -179.999950367184340
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,90.000002504348856,L
+							1924423250,-179.999950367184340,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
@@ -7762,19 +7762,19 @@ Takes:  {
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: 1.000000000000000
+						Default: 1.000000119209290
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,1.000000000000000,L
+							1924423250,1.000000119209290,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: 1.000000000000000
+						Default: 1.000000119209290
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,1.000000000000000,L
+							1924423250,1.000000119209290,L
 						Color: 0,0,1
 					}
 					LayerType: 3
@@ -7813,27 +7813,27 @@ Takes:  {
 				}
 				Channel: "R" {
 					Channel: "X" {
-						Default: 0.000004658457987
+						Default: -0.000000360409744
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000004658457987,L
+							1924423250,-0.000000360409744,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: -47.121096008351330
+						Default: -47.121099423445912
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-47.121096008351330,L
+							1924423250,-47.121099423445912,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: 89.999995674159678
+						Default: -179.999964027562697
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,89.999995674159678,L
+							1924423250,-179.999964027562697,L
 						Color: 0,0,1
 					}
 					LayerType: 2
@@ -7848,11 +7848,11 @@ Takes:  {
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: 1.000000000000000
+						Default: 1.000000119209290
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,1.000000000000000,L
+							1924423250,1.000000119209290,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
@@ -7872,38 +7872,38 @@ Takes:  {
 			Channel: "Transform" {
 				Channel: "T" {
 					Channel: "X" {
-						Default: 1.506028056144714
+						Default: 1.506028175354004
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,1.506028056144714,L
+							1924423250,1.506028175354004,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: 0.000000113701958
+						Default: 0.000000113701802
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000000113701958,L
+							1924423250,0.000000113701802,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: -0.000000119209290
+						Default: -0.000000059605107
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-0.000000119209290,L
+							1924423250,-0.000000059605107,L
 						Color: 0,0,1
 					}
 					LayerType: 1
 				}
 				Channel: "R" {
 					Channel: "X" {
-						Default: -0.000005329467293
+						Default: -0.000005329470957
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-0.000005329467293,L
+							1924423250,-0.000005329470957,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
@@ -7915,11 +7915,11 @@ Takes:  {
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: -0.000002538324663
+						Default: -0.000002538328938
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-0.000002538324663,L
+							1924423250,-0.000002538328938,L
 						Color: 0,0,1
 					}
 					LayerType: 2
@@ -7966,30 +7966,30 @@ Takes:  {
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: 0.000000033551110
+						Default: 0.000000033551160
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000000033551110,L
+							1924423250,0.000000033551160,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: -0.000000029802322
+						Default: -0.000000074505671
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-0.000000029802322,L
+							1924423250,-0.000000074505671,L
 						Color: 0,0,1
 					}
 					LayerType: 1
 				}
 				Channel: "R" {
 					Channel: "X" {
-						Default: 0.000000288380842
+						Default: 0.000000288380893
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000000288380842,L
+							1924423250,0.000000288380893,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
@@ -8001,11 +8001,11 @@ Takes:  {
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: -0.000000009602233
+						Default: -0.000000009596764
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-0.000000009602233,L
+							1924423250,-0.000000009596764,L
 						Color: 0,0,1
 					}
 					LayerType: 2
@@ -8071,27 +8071,27 @@ Takes:  {
 				}
 				Channel: "R" {
 					Channel: "X" {
-						Default: -0.000019171891016
+						Default: 179.999977687941026
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-0.000019171891016,L
+							1924423250,179.999977687941026,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: -132.729563499049675
+						Default: -47.270438094553441
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-132.729563499049675,L
+							1924423250,-47.270438094553441,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: 90.000009334538021
+						Default: 0.000049155647049
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,90.000009334538021,L
+							1924423250,0.000049155647049,L
 						Color: 0,0,1
 					}
 					LayerType: 2
@@ -8138,19 +8138,19 @@ Takes:  {
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: 0.000000107351276
+						Default: 0.000000107351184
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000000107351276,L
+							1924423250,0.000000107351184,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: 0.000000000000000
+						Default: 0.000000000000202
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000000000000000,L
+							1924423250,0.000000000000202,L
 						Color: 0,0,1
 					}
 					LayerType: 1
@@ -8224,30 +8224,30 @@ Takes:  {
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: 0.000000036407389
+						Default: 0.000000036407435
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000000036407389,L
+							1924423250,0.000000036407435,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: 0.000000100582838
+						Default: 0.000000100583009
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000000100582838,L
+							1924423250,0.000000100583009,L
 						Color: 0,0,1
 					}
 					LayerType: 1
 				}
 				Channel: "R" {
 					Channel: "X" {
-						Default: 0.000007945689592
+						Default: 0.000007945687150
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000007945689592,L
+							1924423250,0.000007945687150,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
@@ -8259,11 +8259,11 @@ Takes:  {
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: 0.000000025481631
+						Default: 0.000000025477687
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000000025481631,L
+							1924423250,0.000000025477687,L
 						Color: 0,0,1
 					}
 					LayerType: 2
@@ -8329,11 +8329,11 @@ Takes:  {
 				}
 				Channel: "R" {
 					Channel: "X" {
-						Default: 0.000000157298568
+						Default: 0.000000584467328
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000000157298568,L
+							1924423250,0.000000584467328,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
@@ -8345,11 +8345,11 @@ Takes:  {
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: 89.999995674159678
+						Default: -179.999964027562697
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,89.999995674159678,L
+							1924423250,-179.999964027562697,L
 						Color: 0,0,1
 					}
 					LayerType: 2
@@ -8396,30 +8396,30 @@ Takes:  {
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: 0.000000040943139
+						Default: 0.000000040943171
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000000040943139,L
+							1924423250,0.000000040943171,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: -0.000000001862645
+						Default: -0.000000000000009
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-0.000000001862645,L
+							1924423250,-0.000000000000009,L
 						Color: 0,0,1
 					}
 					LayerType: 1
 				}
 				Channel: "R" {
 					Channel: "X" {
-						Default: 0.000068396628058
+						Default: 0.000068396641086
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000068396628058,L
+							1924423250,0.000068396641086,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
@@ -8431,22 +8431,22 @@ Takes:  {
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: 0.000059191099281
+						Default: 0.000059191112309
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000059191099281,L
+							1924423250,0.000059191112309,L
 						Color: 0,0,1
 					}
 					LayerType: 2
 				}
 				Channel: "S" {
 					Channel: "X" {
-						Default: 1.000000596046448
+						Default: 1.000000476837158
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,1.000000596046448,L
+							1924423250,1.000000476837158,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
@@ -8458,11 +8458,11 @@ Takes:  {
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: 1.000000476837158
+						Default: 1.000000357627869
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,1.000000476837158,L
+							1924423250,1.000000357627869,L
 						Color: 0,0,1
 					}
 					LayerType: 3
@@ -8474,65 +8474,65 @@ Takes:  {
 			Channel: "Transform" {
 				Channel: "T" {
 					Channel: "X" {
-						Default: 0.236701875925064
+						Default: 0.236701861023903
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.236701875925064,L
+							1924423250,0.236701861023903,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: 0.000000017870484
+						Default: 0.000000017870502
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000000017870484,L
+							1924423250,0.000000017870502,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: -0.000000029802322
+						Default: -0.000000029802210
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-0.000000029802322,L
+							1924423250,-0.000000029802210,L
 						Color: 0,0,1
 					}
 					LayerType: 1
 				}
 				Channel: "R" {
 					Channel: "X" {
-						Default: 0.000003557275659
+						Default: 0.000003557274437
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000003557275659,L
+							1924423250,0.000003557274437,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: -0.742288257048964
+						Default: -0.742288417131523
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-0.742288257048964,L
+							1924423250,-0.742288417131523,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: 0.000000177160954
+						Default: 0.000000177160560
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000000177160954,L
+							1924423250,0.000000177160560,L
 						Color: 0,0,1
 					}
 					LayerType: 2
 				}
 				Channel: "S" {
 					Channel: "X" {
-						Default: 1.000000119209290
+						Default: 1.000000000000000
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,1.000000119209290,L
+							1924423250,1.000000000000000,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
@@ -8544,11 +8544,11 @@ Takes:  {
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: 1.000000834465027
+						Default: 1.000000715255737
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,1.000000834465027,L
+							1924423250,1.000000715255737,L
 						Color: 0,0,1
 					}
 					LayerType: 3
@@ -8587,46 +8587,46 @@ Takes:  {
 				}
 				Channel: "R" {
 					Channel: "X" {
-						Default: -0.000000360476002
+						Default: 180.000005008697713
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-0.000000360476002,L
+							1924423250,180.000005008697713,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: -175.236357873970860
+						Default: -4.763642438971794
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-175.236357873970860,L
+							1924423250,-4.763642438971794,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: 90.000002504348856
+						Default: 0.000047605723365
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,90.000002504348856,L
+							1924423250,0.000047605723365,L
 						Color: 0,0,1
 					}
 					LayerType: 2
 				}
 				Channel: "S" {
 					Channel: "X" {
-						Default: 0.999999701976776
+						Default: 0.999999821186066
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.999999701976776,L
+							1924423250,0.999999821186066,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: 0.999999880790710
+						Default: 0.999999940395355
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.999999880790710,L
+							1924423250,0.999999940395355,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
@@ -8654,30 +8654,30 @@ Takes:  {
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: 0.000000035832365
+						Default: 0.000000035832311
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000000035832365,L
+							1924423250,0.000000035832311,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: 0.000000000000000
+						Default: 0.000000000000022
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000000000000000,L
+							1924423250,0.000000000000022,L
 						Color: 0,0,1
 					}
 					LayerType: 1
 				}
 				Channel: "R" {
 					Channel: "X" {
-						Default: -0.000104114221712
+						Default: -0.000104114241253
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-0.000104114221712,L
+							1924423250,-0.000104114241253,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
@@ -8689,11 +8689,11 @@ Takes:  {
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: 0.000108529754124
+						Default: 0.000108529786692
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000108529754124,L
+							1924423250,0.000108529786692,L
 						Color: 0,0,1
 					}
 					LayerType: 2
@@ -8708,11 +8708,11 @@ Takes:  {
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: 1.000000834465027
+						Default: 1.000000953674316
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,1.000000834465027,L
+							1924423250,1.000000953674316,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
@@ -8740,46 +8740,46 @@ Takes:  {
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: 0.000000018614349
+						Default: 0.000000018614335
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000000018614349,L
+							1924423250,0.000000018614335,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: -0.000000009313226
+						Default: -0.000000009313501
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-0.000000009313226,L
+							1924423250,-0.000000009313501,L
 						Color: 0,0,1
 					}
 					LayerType: 1
 				}
 				Channel: "R" {
 					Channel: "X" {
-						Default: 0.000016121414812
+						Default: 0.000016121411555
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,0.000016121414812,L
+							1924423250,0.000016121411555,L
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: -0.164855073313204
+						Default: -0.164854859869793
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-0.164855073313204,L
+							1924423250,-0.164854859869793,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: -0.000000000021292
+						Default: -0.000000000021984
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-0.000000000021292,L
+							1924423250,-0.000000000021984,L
 						Color: 0,0,1
 					}
 					LayerType: 2
