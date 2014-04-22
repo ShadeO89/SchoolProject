@@ -17,6 +17,8 @@ public class ClickToMove : MonoBehaviour
 		position = this.transform.position;
 	}
 	
+
+
 	// Update is called once per frame
 	void Update () 
 	{
@@ -28,6 +30,16 @@ public class ClickToMove : MonoBehaviour
 	// move player to position
 	
 		movePlayerToPosition ();
+
+		if (this.transform.position == position) {
+				
+		
+						this.animation.Play ("idle");
+				} else 	
+		{
+			this.animation.Play ("running");
+		
+		}
 	
 	}
 
@@ -42,6 +54,8 @@ public class ClickToMove : MonoBehaviour
 		}
 
 	}
+
+
 	void movePlayerToPosition(){
 				if (Vector3.Distance (this.transform.position, position) > 1) {
 						Quaternion newRotation = Quaternion.LookRotation (position - transform.position);
@@ -52,17 +66,13 @@ public class ClickToMove : MonoBehaviour
 						newRotation.x = 0f;
 						newRotation.z = 0f;
 
-						this.transform.rotation = Quaternion.Slerp (transform.rotation, newRotation, Time.deltaTime);
-		
-						//this.transform.rotation = (0, 90, 0);
+						this.transform.rotation = Quaternion.Lerp (transform.rotation, newRotation, Time.deltaTime*10);
 
 						controllerMove.SimpleMove (transform.right * speed);
 	
 				}
 				if (Vector3.Distance (this.transform.position, position) < SnapTo) //are we within snap range?
 						this.transform.position = position; //snap to destination
-
-	
 
 			}
 }
