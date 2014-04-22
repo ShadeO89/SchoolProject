@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 44d32cc2d5d7a244c84577c7bed6530d
+guid: dda4f2b6eec4142638a7706909aa577c
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -40,8 +40,8 @@ ModelImporter:
     100068: R_Hand
     100070: R_Shin
     100072: R_Shoulder
-    100074: //RootNode
-    100076: skeleton
+    100074: skeleton
+    100076: //RootNode
     400000: Bip01
     400002: Bip01 HeadNub
     400004: Bip01 L Clavicle
