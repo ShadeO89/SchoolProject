@@ -529,11 +529,11 @@ Animation:
   m_GameObject: {fileID: 555930556}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400002, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
+  m_Animation: {fileID: 7400008, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
   m_Animations:
   - {fileID: 7400002, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
   - {fileID: 7400004, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
-  - {fileID: 7400006, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
+  - {fileID: 7400004, guid: 0b12df5c183d3ea4491286b3e647d3eb, type: 3}
   - {fileID: 7400008, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
   - {fileID: 7400010, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
   m_WrapMode: 0
@@ -573,6 +573,18 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
       propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400008, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
+    - target: {fileID: 11100000, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
+      propertyPath: m_Animations.Array.data[2]
+      value: 
+      objectReference: {fileID: 7400004, guid: 0b12df5c183d3ea4491286b3e647d3eb, type: 3}
+    - target: {fileID: 11100000, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
