@@ -5,9 +5,8 @@ public class ClickToMove : MonoBehaviour
 {
 	public int life = 100;
 	public int damage;
-
-	//public Transform mover;
-	public float speed = 10;
+	
+	public float speed = 2.0f;
 	public float SnapTo = 0.5f; //how close we get before snapping to the desination
 	private Vector3 position;
 	public CharacterController controllerMove;
@@ -44,33 +43,30 @@ public class ClickToMove : MonoBehaviour
 
 	}
 	void movePlayerToPosition(){
-	if(Vector3.Distance(this.transform.position , position) >1){
-		Quaternion newRotation = Quaternion.LookRotation(position-transform.position);
-<<<<<<< HEAD
-		newRotation *= Quaternion.Euler(0, -90, 0);
-=======
-				newRotation *= Quaternion.Euler(0, -90, 0);
->>>>>>> 508bf3511b4efacfbc31330935ef5b1fbe5fe247
-	
-		newRotation.x = 0f;
-		newRotation.z = 0f;
+				if (Vector3.Distance (this.transform.position, position) > 1) {
+						Quaternion newRotation = Quaternion.LookRotation (position - transform.position);
 
-		this.transform.rotation = Quaternion.Slerp (transform.rotation, newRotation, Time.deltaTime);
+						newRotation *= Quaternion.Euler (0, -90, 0);
+
+	
+						newRotation.x = 0f;
+						newRotation.z = 0f;
+
+						this.transform.rotation = Quaternion.Slerp (transform.rotation, newRotation, Time.deltaTime);
 		
-			//this.transform.rotation = (0, 90, 0);
+						//this.transform.rotation = (0, 90, 0);
 
-			controllerMove.SimpleMove (transform.right * speed);
+						controllerMove.SimpleMove (transform.right * speed);
 	
-		}
-	/*	if (Vector3.Distance(mover.position, position) < SnapTo) //are we within snap range?
-			movePlayerToPosition.position = position; //snap to destination
-		else 
-			movePlayerToPosition.position = Vector3.MoveTowards(mover.transform.position, destination, Time.deltaTime * 10); //move toward destination
-	}*/
+				}
+				if (Vector3.Distance (this.transform.position, position) < SnapTo) //are we within snap range?
+						this.transform.position = position; //snap to destination
+
 	
 
+			}
 }
-}
+
 
 	//void attack()
 	//void collide()

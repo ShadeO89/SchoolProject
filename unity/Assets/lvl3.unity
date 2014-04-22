@@ -473,7 +473,6 @@ Transform:
   - {fileID: 464136455}
   - {fileID: 1737149342}
   - {fileID: 329488826}
-  - {fileID: 1454754889}
   m_Father: {fileID: 0}
 --- !u!143 &555930558
 CharacterController:
@@ -517,8 +516,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 100
   damage: 0
-  speed: 10
-  SnapTo: .5
+  speed: 15
+  SnapTo: 1
   controllerMove: {fileID: 555930558}
 --- !u!111 &555930561
 Animation:
@@ -859,10 +858,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1454754888}
   m_LocalRotation: {x: .408217937, y: -.234569728, z: .109381661, w: .875426114}
-  m_LocalPosition: {x: -9.97595215, y: 16.2732716, z: -14.9466553}
+  m_LocalPosition: {x: 1489.36865, y: 20.6158943, z: 347.498444}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 555930557}
+  m_Father: {fileID: 0}
 --- !u!108 &1454754890
 Light:
   m_ObjectHideFlags: 0
