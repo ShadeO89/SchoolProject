@@ -12,6 +12,7 @@ public class Click2Move : MonoBehaviour
 	void Start ()
     {
         destination = mover.position; //set the destination to the objects position when the script is run the first time
+		  
 		
 	}
 	
@@ -19,7 +20,7 @@ public class Click2Move : MonoBehaviour
     void Update()
     {
 		
-		
+		//finding the point of the cursor 
 		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
     	RaycastHit hit;
     	Physics.Raycast(ray, out hit);
@@ -27,6 +28,7 @@ public class Click2Move : MonoBehaviour
 		Vector3 newRotation = Quaternion.LookRotation(hit.point - mover.position).eulerAngles;
 		newRotation.x = 0;
 		newRotation.z = 0;
+		newRotation.y = newRotation.y - 90;
 		mover.rotation = Quaternion.Euler(newRotation);
         
 		//when left mouse button is pressed - movement

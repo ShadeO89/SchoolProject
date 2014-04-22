@@ -1,11 +1,4 @@
-//		
-//		This script builds the maze of Crates based on the bluePrint so it is center under the Main Cammera
-//		
-//		
-//		Authors: 		Lars Reng, < add your name here >
-//		Last updated:	2013-08-27
-//		
-
+		
 using UnityEngine;
 using System.Collections;
 
