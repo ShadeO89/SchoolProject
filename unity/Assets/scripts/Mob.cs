@@ -13,14 +13,14 @@ public class Mob : MonoBehaviour {
 
 	public AnimationClip run;
 	public AnimationClip idle;
-	
-	public Transform player;
+
+	private Transform player;
 
 
 	// Use this for initialization
 	void Start ()
 	{
-
+		player = GameObject.Find ("Gunman_blurby").transform;
 	}
 	
 	// Update is called once per frame
@@ -52,5 +52,10 @@ public class Mob : MonoBehaviour {
 	void OnMouseOver()
 	{
 		player.GetComponent<Gunner>().opponent = gameObject;
+	}
+	void OnCollisionEnter(Collision collision)
+	{
+		if(collision.gameObject.tag == "bullet")
+			Destroy (this.gameObject);
 	}
 }

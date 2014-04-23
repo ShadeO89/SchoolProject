@@ -4,9 +4,13 @@ using System.Collections;
 public class bullet : MonoBehaviour {
  
 	public float bulletSpeed = 5.0f;
+	private float bulletSpawnTime;
+	//public float destroyTime = 5.0f;
 
 	// Use this for initialization
 	void Start () {
+
+		//bulletSpawnTime = Time.time + destroyTime;
 	
 	}
 	
@@ -15,6 +19,14 @@ public class bullet : MonoBehaviour {
 
 		transform.position += transform.forward * bulletSpeed * Time.deltaTime;
 
+		/*if(bulletSpawnTime < Time.time)
+		{
+			Destroy (transform.gameObject);
+		}
 	
+	*/}
+	void OnCollisionEnter(Collision collision)
+	{
+		Destroy (transform.gameObject);
 	}
 }
