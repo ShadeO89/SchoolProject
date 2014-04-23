@@ -10,10 +10,10 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2014
 		Month: 04
-		Day: 16
-		Hour: 14
-		Minute: 09
-		Second: 22
+		Day: 23
+		Hour: 18
+		Minute: 44
+		Second: 23
 		Millisecond: 0
 	}
 	Creator: "FBX SDK/FBX Plugins build 20070228"
@@ -21,7 +21,7 @@ FBXHeaderExtension:  {
 		FlagPLE: 0
 	}
 }
-CreationTime: "2014-04-16 14:09:22:000"
+CreationTime: "2014-04-23 18:44:23:000"
 Creator: "Blender version 2.69 (sub 0)"
 
 ; Object definitions
@@ -8407,187 +8407,187 @@ Relations:  {
 	}
 	Deformer: "Deformer::Skin Cylinder", "Skin" {
 	}
-	Deformer: "SubDeformer::Cluster staff Bone", "Cluster" {
+	Deformer: "SubDeformer::Cluster right_arm Bone", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_leg Bone", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_arm Bone", "Cluster" {
+	}
+	Deformer: "SubDeformer::Cluster body Bone", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Cylinder Bone", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_arm Bone", "Cluster" {
+	Deformer: "SubDeformer::Cluster staff Bone", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster right_arm Bone", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_leg Bone", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone", "Cluster" {
+	Deformer: "SubDeformer::Cluster right_arm Bone_001", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster staff Bone_001", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_arm Bone_001", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_leg Bone_001", "Cluster" {
+	Deformer: "SubDeformer::Cluster body Bone_001", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Cylinder Bone_001", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_001", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_arm Bone_001", "Cluster" {
+	Deformer: "SubDeformer::Cluster staff Bone_001", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster right_arm Bone_001", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_leg Bone_001", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_001", "Cluster" {
+	Deformer: "SubDeformer::Cluster right_arm Bone_002", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster staff Bone_002", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_arm Bone_002", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_leg Bone_002", "Cluster" {
+	Deformer: "SubDeformer::Cluster body Bone_002", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Cylinder Bone_002", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_002", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_arm Bone_002", "Cluster" {
+	Deformer: "SubDeformer::Cluster staff Bone_002", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster right_arm Bone_002", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_leg Bone_002", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_002", "Cluster" {
+	Deformer: "SubDeformer::Cluster right_arm Bone_003", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster staff Bone_003", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_arm Bone_003", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_leg Bone_003", "Cluster" {
+	Deformer: "SubDeformer::Cluster body Bone_003", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Cylinder Bone_003", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_003", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_arm Bone_003", "Cluster" {
+	Deformer: "SubDeformer::Cluster staff Bone_003", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster right_arm Bone_003", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_leg Bone_003", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_003", "Cluster" {
+	Deformer: "SubDeformer::Cluster right_arm Bone_004", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster staff Bone_004", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_arm Bone_004", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_leg Bone_004", "Cluster" {
+	Deformer: "SubDeformer::Cluster body Bone_004", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Cylinder Bone_004", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_004", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_arm Bone_004", "Cluster" {
+	Deformer: "SubDeformer::Cluster staff Bone_004", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster right_arm Bone_004", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_leg Bone_004", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_004", "Cluster" {
+	Deformer: "SubDeformer::Cluster right_arm Bone_005", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster staff Bone_005", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_arm Bone_005", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_leg Bone_005", "Cluster" {
+	Deformer: "SubDeformer::Cluster body Bone_005", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Cylinder Bone_005", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_005", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_arm Bone_005", "Cluster" {
+	Deformer: "SubDeformer::Cluster staff Bone_005", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster right_arm Bone_005", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_leg Bone_005", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_005", "Cluster" {
+	Deformer: "SubDeformer::Cluster right_arm Bone_006", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster staff Bone_006", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_arm Bone_006", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_leg Bone_006", "Cluster" {
+	Deformer: "SubDeformer::Cluster body Bone_006", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Cylinder Bone_006", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_006", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_arm Bone_006", "Cluster" {
+	Deformer: "SubDeformer::Cluster staff Bone_006", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster right_arm Bone_006", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_leg Bone_006", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_006", "Cluster" {
+	Deformer: "SubDeformer::Cluster right_arm Bone_007", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster staff Bone_007", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_arm Bone_007", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_leg Bone_007", "Cluster" {
+	Deformer: "SubDeformer::Cluster body Bone_007", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Cylinder Bone_007", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_007", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_arm Bone_007", "Cluster" {
+	Deformer: "SubDeformer::Cluster staff Bone_007", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster right_arm Bone_007", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_leg Bone_007", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_007", "Cluster" {
+	Deformer: "SubDeformer::Cluster right_arm Bone_008", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster staff Bone_008", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_arm Bone_008", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_leg Bone_008", "Cluster" {
+	Deformer: "SubDeformer::Cluster body Bone_008", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Cylinder Bone_008", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_008", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_arm Bone_008", "Cluster" {
+	Deformer: "SubDeformer::Cluster staff Bone_008", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster right_arm Bone_008", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_leg Bone_008", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_008", "Cluster" {
+	Deformer: "SubDeformer::Cluster right_arm Bone_009", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster staff Bone_009", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_arm Bone_009", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_leg Bone_009", "Cluster" {
+	Deformer: "SubDeformer::Cluster body Bone_009", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Cylinder Bone_009", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_009", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_arm Bone_009", "Cluster" {
+	Deformer: "SubDeformer::Cluster staff Bone_009", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster right_arm Bone_009", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_leg Bone_009", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_009", "Cluster" {
+	Deformer: "SubDeformer::Cluster right_arm Bone_010", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster staff Bone_010", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_arm Bone_010", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_leg Bone_010", "Cluster" {
+	Deformer: "SubDeformer::Cluster body Bone_010", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Cylinder Bone_010", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_010", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_arm Bone_010", "Cluster" {
+	Deformer: "SubDeformer::Cluster staff Bone_010", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster right_arm Bone_010", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_leg Bone_010", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_010", "Cluster" {
+	Deformer: "SubDeformer::Cluster right_arm Bone_011", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster staff Bone_011", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_arm Bone_011", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_leg Bone_011", "Cluster" {
+	Deformer: "SubDeformer::Cluster body Bone_011", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Cylinder Bone_011", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_011", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_arm Bone_011", "Cluster" {
+	Deformer: "SubDeformer::Cluster staff Bone_011", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster right_arm Bone_011", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_leg Bone_011", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster body Bone_011", "Cluster" {
+	Deformer: "SubDeformer::Cluster right_arm Bone_012", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster staff Bone_012", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_arm Bone_012", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_leg Bone_012", "Cluster" {
+	Deformer: "SubDeformer::Cluster body Bone_012", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster Cylinder Bone_012", "Cluster" {
 	}
 	Deformer: "SubDeformer::Cluster right_leg Bone_012", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster left_arm Bone_012", "Cluster" {
+	Deformer: "SubDeformer::Cluster staff Bone_012", "Cluster" {
 	}
-	Deformer: "SubDeformer::Cluster right_arm Bone_012", "Cluster" {
-	}
-	Deformer: "SubDeformer::Cluster body Bone_012", "Cluster" {
+	Deformer: "SubDeformer::Cluster left_leg Bone_012", "Cluster" {
 	}
 }
 
@@ -8617,188 +8617,188 @@ Connections:  {
 	Connect: "OO", "Deformer::Skin left_leg", "Model::left_leg"
 	Connect: "OO", "Deformer::Skin body", "Model::body"
 	Connect: "OO", "Deformer::Skin Cylinder", "Model::Cylinder"
-	Connect: "OO", "SubDeformer::Cluster staff Bone", "Deformer::Skin staff"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster right_arm Bone", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster left_arm Bone", "Deformer::Skin left_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster Cylinder Bone", "Deformer::Skin Cylinder"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone", "Deformer::Skin right_leg"
-	Connect: "OO", "SubDeformer::Cluster left_arm Bone", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster right_arm Bone", "Deformer::Skin right_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster staff Bone_001", "Deformer::Skin staff"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_001", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster staff Bone", "Deformer::Skin staff"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster right_arm Bone_001", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster left_arm Bone_001", "Deformer::Skin left_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_001", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster Cylinder Bone_001", "Deformer::Skin Cylinder"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_001", "Deformer::Skin right_leg"
-	Connect: "OO", "SubDeformer::Cluster left_arm Bone_001", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster right_arm Bone_001", "Deformer::Skin right_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_001", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster staff Bone_002", "Deformer::Skin staff"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_002", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster staff Bone_001", "Deformer::Skin staff"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_001", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster right_arm Bone_002", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster left_arm Bone_002", "Deformer::Skin left_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_002", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster Cylinder Bone_002", "Deformer::Skin Cylinder"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_002", "Deformer::Skin right_leg"
-	Connect: "OO", "SubDeformer::Cluster left_arm Bone_002", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster right_arm Bone_002", "Deformer::Skin right_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_002", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster staff Bone_003", "Deformer::Skin staff"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_003", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster staff Bone_002", "Deformer::Skin staff"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_002", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster right_arm Bone_003", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster left_arm Bone_003", "Deformer::Skin left_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_003", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster Cylinder Bone_003", "Deformer::Skin Cylinder"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_003", "Deformer::Skin right_leg"
-	Connect: "OO", "SubDeformer::Cluster left_arm Bone_003", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster right_arm Bone_003", "Deformer::Skin right_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_003", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster staff Bone_004", "Deformer::Skin staff"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_004", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster staff Bone_003", "Deformer::Skin staff"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_003", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster right_arm Bone_004", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster left_arm Bone_004", "Deformer::Skin left_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_004", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster Cylinder Bone_004", "Deformer::Skin Cylinder"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_004", "Deformer::Skin right_leg"
-	Connect: "OO", "SubDeformer::Cluster left_arm Bone_004", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster right_arm Bone_004", "Deformer::Skin right_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_004", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster staff Bone_005", "Deformer::Skin staff"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_005", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster staff Bone_004", "Deformer::Skin staff"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_004", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster right_arm Bone_005", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster left_arm Bone_005", "Deformer::Skin left_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_005", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster Cylinder Bone_005", "Deformer::Skin Cylinder"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_005", "Deformer::Skin right_leg"
-	Connect: "OO", "SubDeformer::Cluster left_arm Bone_005", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster right_arm Bone_005", "Deformer::Skin right_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_005", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster staff Bone_006", "Deformer::Skin staff"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_006", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster staff Bone_005", "Deformer::Skin staff"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_005", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster right_arm Bone_006", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster left_arm Bone_006", "Deformer::Skin left_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_006", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster Cylinder Bone_006", "Deformer::Skin Cylinder"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_006", "Deformer::Skin right_leg"
-	Connect: "OO", "SubDeformer::Cluster left_arm Bone_006", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster right_arm Bone_006", "Deformer::Skin right_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_006", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster staff Bone_007", "Deformer::Skin staff"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_007", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster staff Bone_006", "Deformer::Skin staff"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_006", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster right_arm Bone_007", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster left_arm Bone_007", "Deformer::Skin left_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_007", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster Cylinder Bone_007", "Deformer::Skin Cylinder"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_007", "Deformer::Skin right_leg"
-	Connect: "OO", "SubDeformer::Cluster left_arm Bone_007", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster right_arm Bone_007", "Deformer::Skin right_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_007", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster staff Bone_008", "Deformer::Skin staff"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_008", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster staff Bone_007", "Deformer::Skin staff"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_007", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster right_arm Bone_008", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster left_arm Bone_008", "Deformer::Skin left_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_008", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster Cylinder Bone_008", "Deformer::Skin Cylinder"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_008", "Deformer::Skin right_leg"
-	Connect: "OO", "SubDeformer::Cluster left_arm Bone_008", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster right_arm Bone_008", "Deformer::Skin right_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_008", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster staff Bone_009", "Deformer::Skin staff"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_009", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster staff Bone_008", "Deformer::Skin staff"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_008", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster right_arm Bone_009", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster left_arm Bone_009", "Deformer::Skin left_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_009", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster Cylinder Bone_009", "Deformer::Skin Cylinder"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_009", "Deformer::Skin right_leg"
-	Connect: "OO", "SubDeformer::Cluster left_arm Bone_009", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster right_arm Bone_009", "Deformer::Skin right_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_009", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster staff Bone_010", "Deformer::Skin staff"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_010", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster staff Bone_009", "Deformer::Skin staff"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_009", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster right_arm Bone_010", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster left_arm Bone_010", "Deformer::Skin left_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_010", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster Cylinder Bone_010", "Deformer::Skin Cylinder"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_010", "Deformer::Skin right_leg"
-	Connect: "OO", "SubDeformer::Cluster left_arm Bone_010", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster right_arm Bone_010", "Deformer::Skin right_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_010", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster staff Bone_011", "Deformer::Skin staff"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_011", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster staff Bone_010", "Deformer::Skin staff"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_010", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster right_arm Bone_011", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster left_arm Bone_011", "Deformer::Skin left_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_011", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster Cylinder Bone_011", "Deformer::Skin Cylinder"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_011", "Deformer::Skin right_leg"
-	Connect: "OO", "SubDeformer::Cluster left_arm Bone_011", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster right_arm Bone_011", "Deformer::Skin right_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_011", "Deformer::Skin body"
-	Connect: "OO", "SubDeformer::Cluster staff Bone_012", "Deformer::Skin staff"
-	Connect: "OO", "SubDeformer::Cluster left_leg Bone_012", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster staff Bone_011", "Deformer::Skin staff"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_011", "Deformer::Skin left_leg"
+	Connect: "OO", "SubDeformer::Cluster right_arm Bone_012", "Deformer::Skin right_arm"
+	Connect: "OO", "SubDeformer::Cluster left_arm Bone_012", "Deformer::Skin left_arm"
+	Connect: "OO", "SubDeformer::Cluster body Bone_012", "Deformer::Skin body"
 	Connect: "OO", "SubDeformer::Cluster Cylinder Bone_012", "Deformer::Skin Cylinder"
 	Connect: "OO", "SubDeformer::Cluster right_leg Bone_012", "Deformer::Skin right_leg"
-	Connect: "OO", "SubDeformer::Cluster left_arm Bone_012", "Deformer::Skin left_arm"
-	Connect: "OO", "SubDeformer::Cluster right_arm Bone_012", "Deformer::Skin right_arm"
-	Connect: "OO", "SubDeformer::Cluster body Bone_012", "Deformer::Skin body"
-	Connect: "OO", "Model::Bone", "SubDeformer::Cluster staff Bone"
-	Connect: "OO", "Model::Bone", "SubDeformer::Cluster left_leg Bone"
+	Connect: "OO", "SubDeformer::Cluster staff Bone_012", "Deformer::Skin staff"
+	Connect: "OO", "SubDeformer::Cluster left_leg Bone_012", "Deformer::Skin left_leg"
+	Connect: "OO", "Model::Bone", "SubDeformer::Cluster right_arm Bone"
+	Connect: "OO", "Model::Bone", "SubDeformer::Cluster left_arm Bone"
+	Connect: "OO", "Model::Bone", "SubDeformer::Cluster body Bone"
 	Connect: "OO", "Model::Bone", "SubDeformer::Cluster Cylinder Bone"
 	Connect: "OO", "Model::Bone", "SubDeformer::Cluster right_leg Bone"
-	Connect: "OO", "Model::Bone", "SubDeformer::Cluster left_arm Bone"
-	Connect: "OO", "Model::Bone", "SubDeformer::Cluster right_arm Bone"
-	Connect: "OO", "Model::Bone", "SubDeformer::Cluster body Bone"
-	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster staff Bone_001"
-	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster left_leg Bone_001"
+	Connect: "OO", "Model::Bone", "SubDeformer::Cluster staff Bone"
+	Connect: "OO", "Model::Bone", "SubDeformer::Cluster left_leg Bone"
+	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster right_arm Bone_001"
+	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster left_arm Bone_001"
+	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster body Bone_001"
 	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster Cylinder Bone_001"
 	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster right_leg Bone_001"
-	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster left_arm Bone_001"
-	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster right_arm Bone_001"
-	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster body Bone_001"
-	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster staff Bone_002"
-	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster left_leg Bone_002"
+	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster staff Bone_001"
+	Connect: "OO", "Model::Bone_001", "SubDeformer::Cluster left_leg Bone_001"
+	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster right_arm Bone_002"
+	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster left_arm Bone_002"
+	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster body Bone_002"
 	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster Cylinder Bone_002"
 	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster right_leg Bone_002"
-	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster left_arm Bone_002"
-	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster right_arm Bone_002"
-	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster body Bone_002"
-	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster staff Bone_003"
-	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster left_leg Bone_003"
+	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster staff Bone_002"
+	Connect: "OO", "Model::Bone_002", "SubDeformer::Cluster left_leg Bone_002"
+	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster right_arm Bone_003"
+	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster left_arm Bone_003"
+	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster body Bone_003"
 	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster Cylinder Bone_003"
 	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster right_leg Bone_003"
-	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster left_arm Bone_003"
-	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster right_arm Bone_003"
-	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster body Bone_003"
-	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster staff Bone_004"
-	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster left_leg Bone_004"
+	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster staff Bone_003"
+	Connect: "OO", "Model::Bone_003", "SubDeformer::Cluster left_leg Bone_003"
+	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster right_arm Bone_004"
+	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster left_arm Bone_004"
+	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster body Bone_004"
 	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster Cylinder Bone_004"
 	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster right_leg Bone_004"
-	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster left_arm Bone_004"
-	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster right_arm Bone_004"
-	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster body Bone_004"
-	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster staff Bone_005"
-	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster left_leg Bone_005"
+	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster staff Bone_004"
+	Connect: "OO", "Model::Bone_004", "SubDeformer::Cluster left_leg Bone_004"
+	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster right_arm Bone_005"
+	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster left_arm Bone_005"
+	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster body Bone_005"
 	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster Cylinder Bone_005"
 	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster right_leg Bone_005"
-	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster left_arm Bone_005"
-	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster right_arm Bone_005"
-	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster body Bone_005"
-	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster staff Bone_006"
-	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster left_leg Bone_006"
+	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster staff Bone_005"
+	Connect: "OO", "Model::Bone_005", "SubDeformer::Cluster left_leg Bone_005"
+	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster right_arm Bone_006"
+	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster left_arm Bone_006"
+	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster body Bone_006"
 	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster Cylinder Bone_006"
 	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster right_leg Bone_006"
-	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster left_arm Bone_006"
-	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster right_arm Bone_006"
-	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster body Bone_006"
-	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster staff Bone_007"
-	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster left_leg Bone_007"
+	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster staff Bone_006"
+	Connect: "OO", "Model::Bone_006", "SubDeformer::Cluster left_leg Bone_006"
+	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster right_arm Bone_007"
+	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster left_arm Bone_007"
+	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster body Bone_007"
 	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster Cylinder Bone_007"
 	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster right_leg Bone_007"
-	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster left_arm Bone_007"
-	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster right_arm Bone_007"
-	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster body Bone_007"
-	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster staff Bone_008"
-	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster left_leg Bone_008"
+	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster staff Bone_007"
+	Connect: "OO", "Model::Bone_007", "SubDeformer::Cluster left_leg Bone_007"
+	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster right_arm Bone_008"
+	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster left_arm Bone_008"
+	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster body Bone_008"
 	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster Cylinder Bone_008"
 	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster right_leg Bone_008"
-	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster left_arm Bone_008"
-	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster right_arm Bone_008"
-	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster body Bone_008"
-	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster staff Bone_009"
-	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster left_leg Bone_009"
+	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster staff Bone_008"
+	Connect: "OO", "Model::Bone_008", "SubDeformer::Cluster left_leg Bone_008"
+	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster right_arm Bone_009"
+	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster left_arm Bone_009"
+	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster body Bone_009"
 	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster Cylinder Bone_009"
 	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster right_leg Bone_009"
-	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster left_arm Bone_009"
-	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster right_arm Bone_009"
-	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster body Bone_009"
-	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster staff Bone_010"
-	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster left_leg Bone_010"
+	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster staff Bone_009"
+	Connect: "OO", "Model::Bone_009", "SubDeformer::Cluster left_leg Bone_009"
+	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster right_arm Bone_010"
+	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster left_arm Bone_010"
+	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster body Bone_010"
 	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster Cylinder Bone_010"
 	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster right_leg Bone_010"
-	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster left_arm Bone_010"
-	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster right_arm Bone_010"
-	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster body Bone_010"
-	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster staff Bone_011"
-	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster left_leg Bone_011"
+	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster staff Bone_010"
+	Connect: "OO", "Model::Bone_010", "SubDeformer::Cluster left_leg Bone_010"
+	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster right_arm Bone_011"
+	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster left_arm Bone_011"
+	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster body Bone_011"
 	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster Cylinder Bone_011"
 	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster right_leg Bone_011"
-	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster left_arm Bone_011"
-	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster right_arm Bone_011"
-	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster body Bone_011"
-	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster staff Bone_012"
-	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster left_leg Bone_012"
+	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster staff Bone_011"
+	Connect: "OO", "Model::Bone_011", "SubDeformer::Cluster left_leg Bone_011"
+	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster right_arm Bone_012"
+	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster left_arm Bone_012"
+	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster body Bone_012"
 	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster Cylinder Bone_012"
 	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster right_leg Bone_012"
-	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster left_arm Bone_012"
-	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster right_arm Bone_012"
-	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster body Bone_012"
+	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster staff Bone_012"
+	Connect: "OO", "Model::Bone_012", "SubDeformer::Cluster left_leg Bone_012"
 	Connect: "OO", "Model::Bone", "Model::Armature"
 	Connect: "OO", "Model::Bone_001", "Model::Armature"
 	Connect: "OO", "Model::Bone_002", "Model::Bone_001"
