@@ -7,6 +7,14 @@ public class Click2Move : MonoBehaviour
     public Transform mover; //the object being moved
     public float SnapTo = 0.5f; //how close we get before snapping to the desination
     private Vector3 destination = Vector3.zero; //where we want to move
+	//bullet stuff
+	public GameObject leftBulletSpawn;
+	public GameObject rightBulletSpawn;
+	public Transform bullet;
+	private bool leftSpawner = true;
+	//sounds
+	public AudioSource gunShot;
+	public AudioSource shellFall;
 
 	// Use this for initialization
 	void Start ()
@@ -31,7 +39,7 @@ public class Click2Move : MonoBehaviour
 		newRotation.y = newRotation.y - 90;
 		mover.rotation = Quaternion.Euler(newRotation);
         
-		//when left mouse button is pressed - movement
+		// when left mouse button is pressed - movement
         if (Input.GetMouseButtonDown(0))
         {
            
@@ -39,6 +47,21 @@ public class Click2Move : MonoBehaviour
                 if (hit.transform.name == "Plane") //did we hit the ground?
                     destination = hit.point; //set the destinatin to the vector3 where the ground was contacted
         }
+		// shooting and changing R/L gun
+		if (Input.GetMouseButtonDown (1)) 
+		{
+			//sounds played
+			gunShot.Play();
+			shellFall.PlayOneShot(shellFall.clip);
+
+			if (leftSpawner) 
+			{
+				Instantiate (bullet, leftBulletSpawn.transform.position, leftBulletSpawn.transform.rotation * Quaternion.Euler(0,90,0));
+			} else {
+				Instantiate (bullet, rightBulletSpawn.transform.position, rightBulletSpawn.transform.rotation * Quaternion.Euler(0,90,0));
+			} 
+			leftSpawner = !leftSpawner; 
+		}
 
         // move the object toward the destination
         if (Vector3.Distance(mover.position, destination) < SnapTo) //are we within snap range?
