@@ -14,7 +14,10 @@ public class Click2Move : MonoBehaviour
 	private bool leftSpawner = true;
 	//sounds
 	public AudioSource gunShot;
-	public AudioSource shellFall;
+	public AnimationClip run;
+	public AnimationClip idle;
+	public AnimationClip attack;
+
 
 	// Use this for initialization
 	void Start ()
@@ -50,9 +53,11 @@ public class Click2Move : MonoBehaviour
 		// shooting and changing R/L gun
 		if (Input.GetMouseButtonDown (1)) 
 		{
-			//sounds played
+			//sounds and animation played
 			gunShot.Play();
-			shellFall.PlayOneShot(shellFall.clip);
+			animation.Play(attack.name);
+
+
 
 			if (leftSpawner) 
 			{
@@ -64,9 +69,12 @@ public class Click2Move : MonoBehaviour
 		}
 
         // move the object toward the destination
-        if (Vector3.Distance(mover.position, destination) < SnapTo) //are we within snap range?
-            mover.position = destination; //snap to destination
-        else 
-            mover.position = Vector3.MoveTowards(mover.transform.position, destination, Time.deltaTime * 10); //move toward destination
+		if (Vector3.Distance (mover.position, destination) < SnapTo) { //are we within snap range?
+			mover.position = destination; //snap to destination
+			animation.CrossFade (idle.name);
+		}else{
+			mover.position = Vector3.MoveTowards (mover.transform.position, destination, Time.deltaTime * 10); //move toward destination
+			animation.CrossFade (run.name);
+		}
 	}
 }

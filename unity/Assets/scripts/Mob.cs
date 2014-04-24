@@ -8,11 +8,15 @@ public class Mob : MonoBehaviour {
 
 	public float speed;
 	public float range;
+	public float bulletPower = 10.0f;
+	public float health = 35;
 
 	public CharacterController controller;
 
 	public AnimationClip run;
 	public AnimationClip idle;
+	public AnimationClip die;
+	public AnimationClip attack;
 
 	private Transform player;
 
@@ -30,7 +34,7 @@ public class Mob : MonoBehaviour {
 		{
 		chase ();
 		}else{
-			animation.CrossFade(idle.name);
+			animation.CrossFade(attack.name);
 		}
 	}
 	
@@ -56,6 +60,11 @@ public class Mob : MonoBehaviour {
 	void OnCollisionEnter(Collision collision)
 	{
 		if(collision.gameObject.tag == "bullet")
+			health = health - bulletPower;
+		if(health <= 0)
+		{
+			animation.CrossFade(die.name);
 			Destroy (this.gameObject);
+		}
 	}
 }

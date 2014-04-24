@@ -3,14 +3,15 @@ using System.Collections;
 
 public class bullet : MonoBehaviour {
  
-	public float bulletSpeed = 5.0f;
+	public float bulletSpeed;
 	private float bulletSpawnTime;
-	//public float destroyTime = 5.0f;
+	public AudioSource gunHit;
+
 
 	// Use this for initialization
 	void Start () {
 
-		//bulletSpawnTime = Time.time + destroyTime;
+
 	
 	}
 	
@@ -19,14 +20,16 @@ public class bullet : MonoBehaviour {
 
 		transform.position += transform.forward * bulletSpeed * Time.deltaTime;
 
-		/*if(bulletSpawnTime < Time.time)
-		{
-			Destroy (transform.gameObject);
 		}
-	
-	*/}
 	void OnCollisionEnter(Collision collision)
 	{
+		if (collision.gameObject.name == "Crate") 
+		{
+			gunHit.Play();
+		}
+
 		Destroy (transform.gameObject);
+
+
 	}
 }
