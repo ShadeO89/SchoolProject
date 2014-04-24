@@ -210,6 +210,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c3b336c08d869b48a9a172ff0aa08e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  life: 0
+  fireball: {fileID: 100002, guid: 901f6bf0877c4d44a80a4d5d263ed190, type: 2}
 --- !u!136 &176693373
 CapsuleCollider:
   m_ObjectHideFlags: 0

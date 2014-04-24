@@ -2,13 +2,17 @@
 using System.Collections;
 
 public class clickMove_claes : MonoBehaviour {
-	
+
+	public int life;
 	private Vector3 position;
 	private Vector3 looking;
+	public GameObject fireball;
 
 	void Start () {
 		//forcing him to start at target position
 		this.transform.position = new Vector3(0,3,0);
+
+
 	}
 	
 
@@ -31,9 +35,11 @@ public class clickMove_claes : MonoBehaviour {
 			set_position();
 			moveplayer();
 		}
-		else if(this.animation.IsPlaying("attack"))
+		//checking for abillity to attack
+		if(!this.animation.IsPlaying("attack"))
 		{
-			Debug.Log("attack");
+			Debug.Log("can now attack");
+			playerAttack();
 		}
 
 	}
@@ -88,6 +94,24 @@ public class clickMove_claes : MonoBehaviour {
 		else
 		{
 			this.transform.position = position;
+		}
+	}
+	void playerAttack()
+	{
+		if(Input.GetMouseButtonUp(1))
+		{
+			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+			RaycastHit hit;
+			if (Physics.Raycast(ray, out hit)) 
+			{
+				position = new Vector3(hit.point.x , hit.point.y , hit.point.z);
+				this.animation.Play("attack");
+				this.animation.PlayQueued("idle");
+				fireball.transform.position = this.transform.position + this.transform.right*3 + new Vector3(0,3,0);
+				fireball.transform.rotation = Quaternion.LookRotation (position - transform.position);
+				Instantiate(fireball);
+
+			}
 		}
 	}
 }
