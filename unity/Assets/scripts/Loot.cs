@@ -3,7 +3,8 @@ using System.Collections;
 
 public class Loot : MonoBehaviour {
 
-	public int loot;
+	private int loot;
+	public TextMesh value;
 
 	// Use this for initialization
 	void Start () {
@@ -17,11 +18,12 @@ public class Loot : MonoBehaviour {
 
 	void OnCollisionEnter(Collision collision)
 	{
-		if (collision.gameObject.tag == "Player") 
+		if (collision.gameObject.tag == "Loot") 
 		{
 			loot += 10;
+			value.text = ""+loot;
 
-			Destroy (transform.gameObject);
+			Destroy (collision.transform.gameObject);
 		}
 
 

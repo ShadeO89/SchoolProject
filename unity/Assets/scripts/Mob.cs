@@ -10,6 +10,8 @@ public class Mob : MonoBehaviour {
 	public float range;
 	public float bulletPower = 10.0f;
 	public float health = 35;
+	public int damage = 2;
+	public Transform Explosion;
 
 	public CharacterController controller;
 
@@ -19,6 +21,8 @@ public class Mob : MonoBehaviour {
 	public AnimationClip attack;
 
 	private Transform player;
+
+	private float attackAnimWaitTime = 0;
 
 
 	// Use this for initialization
@@ -30,11 +34,20 @@ public class Mob : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if(!inRange())
-		{
-		chase ();
-		}else{
-			animation.CrossFade(attack.name);
+		if (!animation.IsPlaying(die.name)) {
+
+			if (!inRange ()) {
+				chase ();
+				attackAnimWaitTime = 0;
+			} else {
+				if (attackAnimWaitTime <= 0) {
+					animation.CrossFade (attack.name);
+					player.gameObject.GetComponent<Player> ().receiveDamage (damage);
+					attackAnimWaitTime = attack.length;
+				} else {
+					attackAnimWaitTime -= Time.deltaTime;
+				}
+			}
 		}
 	}
 	
@@ -55,7 +68,7 @@ public class Mob : MonoBehaviour {
 
 	void OnMouseOver()
 	{
-		player.GetComponent<Gunner>().opponent = gameObject;
+		//player.GetComponent<Gunner>().opponent = gameObject;
 	}
 	void OnCollisionEnter(Collision collision)
 	{
@@ -63,8 +76,19 @@ public class Mob : MonoBehaviour {
 			health = health - bulletPower;
 		if(health <= 0)
 		{
+
 			animation.CrossFade(die.name);
-			Destroy (this.gameObject);
+
+			CharacterController cc = (CharacterController) this.gameObject.GetComponent ("CharacterController");
+			cc.enabled = false;
+
+			Invoke ("DestroySkeleton", die.length);
 		}
+	}
+
+	void DestroySkeleton()
+	{
+		Destroy (this.gameObject);
+
 	}
 }
