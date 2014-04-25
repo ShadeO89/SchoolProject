@@ -24,7 +24,7 @@ public class Mob : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
-		player = GameObject.Find ("Gunman_blurby").transform;
+		player = GameObject.Find ("Gunman").transform;
 	}
 	
 	// Update is called once per frame
