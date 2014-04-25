@@ -201,10 +201,9 @@ GameObject:
   - 114: {fileID: 11400002}
   - 114: {fileID: 11400000}
   - 82: {fileID: 8200000}
-  - 82: {fileID: 8200002}
   m_Layer: 0
-  m_Name: Gunman_blurby
-  m_TagString: Untagged
+  m_Name: Gunman
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -762,9 +761,9 @@ AudioSource:
   m_GameObject: {fileID: 100024}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: e483bd0860f6947d2a989bed9b728de8, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_audioClip: {fileID: 8300000, guid: b7eede543c4724bdd93ea8366f577b18, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: .189999998
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1014,7 +1013,9 @@ MonoBehaviour:
   rightBulletSpawn: {fileID: 100036}
   bullet: {fileID: 400000, guid: b6f77c7443d00431aaea6e1ca6f8bec1, type: 2}
   gunShot: {fileID: 8200000}
-  shellFall: {fileID: 8200002}
+  run: {fileID: 7400004, guid: 1da7cd80fa3fc94478c7e21813878a4b, type: 3}
+  idle: {fileID: 7400002, guid: 1da7cd80fa3fc94478c7e21813878a4b, type: 3}
+  attack: {fileID: 7400000, guid: 1da7cd80fa3fc94478c7e21813878a4b, type: 3}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
