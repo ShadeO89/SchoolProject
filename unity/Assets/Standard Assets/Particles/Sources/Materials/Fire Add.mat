@@ -17,7 +17,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: b1615075e49ed49cd99b29375c178a05, type: 3}
+          m_Texture: {fileID: 2800000, guid: 8c0b39f0c5883eb4185725163a47e162, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -37,13 +37,6 @@ Material:
       data:
         first:
           name: _DecalTex
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _AlphaTex
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -78,6 +71,20 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
+          name: _Normal0
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AlphaTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
           name: _Normal3
         second:
           m_Texture: {fileID: 0}
@@ -93,13 +100,6 @@ Material:
       data:
         first:
           name: _Normal1
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _Normal0
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -120,12 +120,12 @@ Material:
         second: {r: 1, g: .858620703, b: .397058845, a: 1}
       data:
         first:
-          name: _TintColor
-        second: {r: .316176474, g: .26984027, b: .118566178, a: 1}
-      data:
-        first:
           name: _SpecColor
         second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: .316176474, g: .26984027, b: .118566178, a: 1}
       data:
         first:
           name: _color

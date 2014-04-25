@@ -85,7 +85,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb385674970a64f7c9744385978660e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpeed: 15
+  bulletSpeed: 100
   gunHit: {fileID: 0}
 --- !u!135 &13500000
 SphereCollider:

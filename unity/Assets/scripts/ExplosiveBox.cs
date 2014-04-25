@@ -20,7 +20,7 @@ public class ExplosiveBox : MonoBehaviour {
 	
 	void OnCollisionEnter(Collision other) {
 
-		if (other.gameObject.tag == "bullet"){
+		if (other.gameObject.tag == "Fire"){
 
 			Boom.PlayOneShot(Boom.clip);
 		GameObject exp = Instantiate(Explosion, rigidbody.position, Quaternion.identity) as GameObject;
