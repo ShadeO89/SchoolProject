@@ -451,7 +451,7 @@ GameObject:
   - 143: {fileID: 555930558}
   m_Layer: 0
   m_Name: warrior_blurby
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -528,11 +528,11 @@ Animation:
   m_GameObject: {fileID: 555930556}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400008, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
+  m_Animation: {fileID: 7400008, guid: 2eeb27f8c9852cc47af6a1238b303249, type: 3}
   m_Animations:
   - {fileID: 7400002, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
   - {fileID: 7400004, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
-  - {fileID: 7400004, guid: 0b12df5c183d3ea4491286b3e647d3eb, type: 3}
+  - {fileID: 7400008, guid: 2eeb27f8c9852cc47af6a1238b303249, type: 3}
   - {fileID: 7400008, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
   - {fileID: 7400010, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
   m_WrapMode: 0
@@ -577,14 +577,18 @@ Prefab:
     - target: {fileID: 11100000, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
       propertyPath: m_Animation
       value: 
-      objectReference: {fileID: 7400008, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
+      objectReference: {fileID: 7400008, guid: 2eeb27f8c9852cc47af6a1238b303249, type: 3}
     - target: {fileID: 11100000, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
       propertyPath: m_Animations.Array.data[2]
       value: 
-      objectReference: {fileID: 7400004, guid: 0b12df5c183d3ea4491286b3e647d3eb, type: 3}
+      objectReference: {fileID: 7400008, guid: 2eeb27f8c9852cc47af6a1238b303249, type: 3}
     - target: {fileID: 11100000, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100040, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6f1281036a93bcf4891189b268be969d, type: 3}
