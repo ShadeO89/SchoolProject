@@ -3,8 +3,8 @@ using System.Collections;
 
 public class lvl3Enemy : MonoBehaviour {
 
+
 	public int life = 35;
-	public int damage = 10;
 	private bool isAttacking;
 	private bool isAlive = true;
 
@@ -32,5 +32,14 @@ public class lvl3Enemy : MonoBehaviour {
 		
 		}
 
+	}
+
+	public void damageTaken(int damage){
+
+
+		life = life - damage;
+		this.animation.Play("gethit");
+
+	
 	}
 }
