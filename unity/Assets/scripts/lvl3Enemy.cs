@@ -19,11 +19,11 @@ public class lvl3Enemy : MonoBehaviour {
 		if (isAttacking == true) {
 		
 						this.animation.Play ("attack");
-				}
-			/*	} else {
-			this.animation.Play("waitingforbattle");		
+				
+				} else {
+			this.animation.Play("idle");		
 		
-		}*/
+		}
 		if (life <= 0) {
 				
 			isAlive = false;
