@@ -10,7 +10,7 @@ public class clickMove_claes : MonoBehaviour {
 
 	void Start () {
 		//forcing him to start at target position
-		this.transform.position = new Vector3(0,3,0);
+		this.transform.position = new Vector3(-200,3,300);
 
 
 	}
@@ -107,10 +107,9 @@ public class clickMove_claes : MonoBehaviour {
 				position = new Vector3(hit.point.x , hit.point.y , hit.point.z);
 				this.animation.Play("attack");
 				this.animation.PlayQueued("idle");
-				fireball.transform.position = this.transform.position + this.transform.right*3 + new Vector3(0,3,0);
+				fireball.transform.position = this.transform.position + this.transform.right*3 + new Vector3(0,5,0);
 				fireball.transform.rotation = Quaternion.LookRotation (position - transform.position);
 				Instantiate(fireball);
-
 			}
 		}
 	}
