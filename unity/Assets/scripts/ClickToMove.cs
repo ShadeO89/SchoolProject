@@ -22,7 +22,7 @@ public class ClickToMove : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		if (Input.GetMouseButton(0)) {
+		if (Input.GetMouseButtonDown(0)) {
 			locatePosition();		
 		//Locate where the Player clicked terrain
 
@@ -31,11 +31,11 @@ public class ClickToMove : MonoBehaviour
 	
 		movePlayerToPosition ();
 
-		if (this.transform.position == position) {
-				
-		
-						this.animation.Play ("idle");
-				} else 	
+		if (this.transform.position == position && !animation.IsPlaying("attack_swipe") && !animation.IsPlaying("attack_stab")) 
+		{
+				this.animation.Play ("idle");
+		} 
+		else if (!animation.IsPlaying("attack_swipe") && !animation.IsPlaying("attack_stab"))
 		{
 			this.animation.Play ("running");
 		
@@ -49,16 +49,19 @@ public class ClickToMove : MonoBehaviour
 		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		if (Physics.Raycast(ray, out hit)) 
 		{
+			if (hit.transform.tag == "Enemy") 
+			{ 
+				attack (hit.point);
+			}
+			else
+			{
 			position = new Vector3(hit.point.x , hit.point.y , hit.point.z);
-		
+			}
 		}
 
 		Debug.Log(hit.transform.tag);
 
-		if (hit.transform.tag == "Enemy") { 
 
-		
-			attack (hit.point);}
 	
 
 	}
@@ -86,11 +89,10 @@ public class ClickToMove : MonoBehaviour
 
 
 
-	void attack(Vector3 hit){
-
-		this.animation.Play ("attack_swipe");
-
-
+	void attack(Vector3 hit)
+		{
+		this.animation.Play("attack_swipe");
+		this.animation.PlayQueued("idle");
 		}
 }
 

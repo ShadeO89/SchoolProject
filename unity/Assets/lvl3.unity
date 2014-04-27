@@ -906,6 +906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 100
   damage: 0
+  sword: {fileID: 0}
   speed: 15
   SnapTo: 1
   controllerMove: {fileID: 555930558}
