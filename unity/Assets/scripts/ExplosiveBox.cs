@@ -22,7 +22,7 @@ public class ExplosiveBox : MonoBehaviour {
 
 		if (other.gameObject.tag == "Fire"){
 
-			Boom.PlayOneShot(Boom.clip);
+			Boom.Play();
 		GameObject exp = Instantiate(Explosion, rigidbody.position, Quaternion.identity) as GameObject;
 		Destroy(exp,5);
 		other.transform.position = transform.position;

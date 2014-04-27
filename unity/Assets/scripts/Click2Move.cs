@@ -5,7 +5,7 @@ public class Click2Move : MonoBehaviour
 {
 	
     public Transform mover; //the object being moved
-    public float SnapTo = 0.5f; //how close we get before snapping to the desination
+	public float SnapTo = 0.5f; //how close we get before snapping to the desination
     private Vector3 destination = Vector3.zero; //where we want to move
 	//bullet stuff
 	public GameObject leftBulletSpawn;
@@ -47,7 +47,7 @@ public class Click2Move : MonoBehaviour
         {
            
             if (Physics.Raycast(ray, out hit)) //did we hit something?
-                if (hit.transform.name == "Plane") //did we hit the ground?
+			if (hit.transform.name == "Plane" | hit.transform.tag == "Loot") //did we hit the ground?
                     destination = hit.point; //set the destinatin to the vector3 where the ground was contacted
         }
 		// shooting and changing R/L gun
