@@ -4,8 +4,8 @@ using System.Collections;
 public class ClickToMove : MonoBehaviour 
 {
 	public int life = 100;
-	public int damage;
-	
+	public int damage = 15;
+	public Transform sword;
 	public float speed = 2.0f;
 	public float SnapTo = 0.5f; //how close we get before snapping to the desination
 	private Vector3 position;
@@ -50,8 +50,16 @@ public class ClickToMove : MonoBehaviour
 		if (Physics.Raycast(ray, out hit)) 
 		{
 			position = new Vector3(hit.point.x , hit.point.y , hit.point.z);
-			Debug.Log(position);
+		
 		}
+
+		Debug.Log(hit.transform.tag);
+
+		if (hit.transform.tag == "Enemy") { 
+
+		
+			attack (hit.point);}
+	
 
 	}
 
@@ -75,6 +83,15 @@ public class ClickToMove : MonoBehaviour
 						this.transform.position = position; //snap to destination
 
 			}
+
+
+
+	void attack(Vector3 hit){
+
+		this.animation.Play ("attack_swipe");
+
+
+		}
 }
 
 
