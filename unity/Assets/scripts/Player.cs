@@ -6,7 +6,7 @@ public class Player : MonoBehaviour {
 	private int life = 100;
 	//public TextMesh value;
 	public AudioSource death;
-	private int damage = 40;
+	private int damage = 20;
 
 	// Use this for initialization
 	void Start () {

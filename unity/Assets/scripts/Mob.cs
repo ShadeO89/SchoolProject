@@ -11,6 +11,7 @@ public class Mob : MonoBehaviour {
 	public float health = 35;
 	public int damage = 2;
 	public Transform Explosion;
+	public AudioSource swordHit;
 
 	public CharacterController controller;
 	
@@ -81,6 +82,35 @@ public class Mob : MonoBehaviour {
 	{
 		if(collision.gameObject.tag == "weapon")
 			health = health - player.gameObject.GetComponent<Player> ().get_outputdamage();
+
+		if (collision.transform.tag == "Player") {
+			Debug.Log ("a sword hit me");
+			Debug.Log(collision.gameObject.animation.IsPlaying("attack_swipe"));
+			
+			if(collision.gameObject.animation.IsPlaying("attack_swipe") || collision.gameObject.animation.IsPlaying("attack_stab"))
+				
+			{
+				swordHit.Play();
+
+				health = health - player.gameObject.GetComponent<Player> ().get_outputdamage();
+				
+				this.animation.Play("gethit");
+				this.animation.PlayQueued("idle");
+				
+				
+			}
+			//			int recieveDamage = gameObject.GetComponent <sword>().getDamage();
+			
+
+			
+			//life = life - (collision.gameObject.GetComponent <sword>().getDamage);
+			
+			
+			//collision.gameObject.GetComponent <sword>().getDamage();
+			
+		}
+
+
 		if(health <= 0)
 		{
 

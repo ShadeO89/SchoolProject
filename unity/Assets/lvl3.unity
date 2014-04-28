@@ -522,7 +522,7 @@ Transform:
   m_PrefabInternal: {fileID: 1081349227}
   m_GameObject: {fileID: 247543283}
   m_LocalRotation: {x: 0, y: -.965210259, z: 0, w: .261475176}
-  m_LocalPosition: {x: 1510.5199, y: .621266127, z: 360.818268}
+  m_LocalPosition: {x: 1510.5199, y: 1.62622809, z: 360.818268}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1044390267}
@@ -572,6 +572,7 @@ MonoBehaviour:
   health: 35
   damage: 2
   Explosion: {fileID: 0}
+  swordHit: {fileID: 247543289}
   controller: {fileID: 247543286}
   die: {fileID: 7400012, guid: 86c591ebd74142c4d93243d9fa9544da, type: 3}
   attack: {fileID: 7400008, guid: 86c591ebd74142c4d93243d9fa9544da, type: 3}
@@ -606,7 +607,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: 62fedcc4b1cfc284eb40f257d6c9c2b1, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -664,7 +665,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 329488826}
   - 137: {fileID: 329488827}
-  - 114: {fileID: 329488828}
   - 136: {fileID: 329488829}
   m_Layer: 0
   m_Name: sword
@@ -730,18 +730,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -.698469758, y: .553601265, z: -.479298592}
     m_Extent: {x: 3.2144227, y: 3.04522347, z: 2.06958437}
   m_DirtyAABB: 0
---- !u!114 &329488828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 329488825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79fade4d8c2ee8d4a9a68320b064d5de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 15
 --- !u!136 &329488829
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1269,7 +1257,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: d3c9a22c2875247e8b398964d9dd8954, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2152,7 +2140,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: d139727d46a14204285626a8b7ef9525, type: 2}
       propertyPath: m_LocalPosition.y
-      value: .621266127
+      value: 1.62622809
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: d139727d46a14204285626a8b7ef9525, type: 2}
       propertyPath: m_LocalPosition.z
