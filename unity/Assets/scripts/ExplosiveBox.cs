@@ -5,7 +5,7 @@ public class ExplosiveBox : MonoBehaviour {
 
 	public Transform Explosion;
 	//sounds
-	public AudioSource Boom;
+
 	
 	// Use this for initialization
 	void Start () {
@@ -20,14 +20,15 @@ public class ExplosiveBox : MonoBehaviour {
 	
 	void OnCollisionEnter(Collision other) {
 
+
 		if (other.gameObject.tag == "Fire"){
 
 			Boom.Play();
 		GameObject exp = Instantiate(Explosion, rigidbody.position, Quaternion.identity) as GameObject;
-		Destroy(exp,5);
+			Destroy(exp,5);
 		other.transform.position = transform.position;
 		Destroy(gameObject);
-		other.transform.localScale = new Vector3(5,2,5);
+			other.transform.localScale = new Vector3(5,2,5);
 		Destroy(other.gameObject,0.1f);
 
 		}
