@@ -1993,7 +1993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 0
-  fireball: {fileID: 100002, guid: 901f6bf0877c4d44a80a4d5d263ed190, type: 2}
+  fireball: {fileID: 100002, guid: ac3bacb241852ff4fa04aaf4a40916b1, type: 2}
 --- !u!136 &176693373
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -20508,24 +20508,24 @@ Transform:
   m_LocalPosition: {x: -337.320984, y: -229.329834, z: 83.8653564}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 710831402}
-  - {fileID: 98149174}
-  - {fileID: 308695129}
-  - {fileID: 841027299}
-  - {fileID: 1912568005}
+  - {fileID: 2057424116}
+  - {fileID: 446369689}
+  - {fileID: 1409047533}
   - {fileID: 197457505}
+  - {fileID: 841027299}
+  - {fileID: 661167319}
+  - {fileID: 1466805208}
+  - {fileID: 370990078}
+  - {fileID: 1912568005}
+  - {fileID: 801831089}
   - {fileID: 165717166}
   - {fileID: 579310593}
-  - {fileID: 370990078}
-  - {fileID: 980104647}
-  - {fileID: 2057424116}
+  - {fileID: 98149174}
+  - {fileID: 308695129}
   - {fileID: 1363540757}
+  - {fileID: 710831402}
   - {fileID: 1569226662}
-  - {fileID: 446369689}
-  - {fileID: 1466805208}
-  - {fileID: 1409047533}
-  - {fileID: 801831089}
-  - {fileID: 661167319}
+  - {fileID: 980104647}
   m_Father: {fileID: 0}
 --- !u!1 &1756980747
 GameObject:

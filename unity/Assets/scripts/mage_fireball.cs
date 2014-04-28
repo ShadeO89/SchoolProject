@@ -12,7 +12,7 @@ public class mage_fireball : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		rigidbody.velocity = transform.forward*5;
+		rigidbody.velocity = transform.forward*10;
 	}
 
 	void OnCollisionEnter(Collision other)
