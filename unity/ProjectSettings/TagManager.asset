@@ -11,6 +11,7 @@ TagManager:
   - Create
   - Goal
   - weapon
+  - trigger
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

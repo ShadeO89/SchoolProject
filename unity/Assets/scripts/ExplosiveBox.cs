@@ -4,7 +4,7 @@ using System.Collections;
 public class ExplosiveBox : MonoBehaviour {
 
 	public Transform Explosion;
-	//sounds
+
 
 	
 	// Use this for initialization
@@ -23,7 +23,7 @@ public class ExplosiveBox : MonoBehaviour {
 
 		if (other.gameObject.tag == "Fire"){
 
-			Boom.Play();
+
 		GameObject exp = Instantiate(Explosion, rigidbody.position, Quaternion.identity) as GameObject;
 			Destroy(exp,5);
 		other.transform.position = transform.position;
