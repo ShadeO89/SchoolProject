@@ -38,8 +38,31 @@ public class lvl3Enemy : MonoBehaviour {
 
 
 		life = life - damage;
-		this.animation.Play("gethit");
+
 
 	
+	}
+
+	void OnCollisionEnter(Collision collision){
+		
+
+		Debug.Log ("i've hit somethin'");
+
+		if (collision.transform.tag == "weapon") {
+			Debug.Log ("a sword hit me");
+			int recieveDamage = collision.gameObject.GetComponent <sword>().getDamage();
+
+				life = life - recieveDamage;
+
+			this.animation.Play("gethit");
+
+
+				//life = life - (collision.gameObject.GetComponent <sword>().getDamage);
+			
+			
+			//collision.gameObject.GetComponent <sword>().getDamage();
+			
+		}
+		
 	}
 }

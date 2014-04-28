@@ -15,17 +15,21 @@ public class sword : MonoBehaviour {
 	
 	}
 
-	void OnCollisionEnter(Collision collision){
-
-
+	/*void OnCollisionEnter(Collision collision){
+		
+		
 		if (collision.transform.tag == "Enemy") {
-				
-		
+			
+			
 			collision.gameObject.GetComponent <lvl3Enemy>().damageTaken(damage);
-		
-		
-		
+			
+			
+			
 		}
+		
+	}*/
 
-	}
+	public int getDamage() 
+	{ return damage; }
+	
 }
