@@ -20,7 +20,7 @@ public class ClickToMove : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)) {
+		if (Input.GetMouseButton(0) || Input.GetMouseButton(1)) {
 			locatePosition();		
 		//Locate where the Player clicked terrain
 
