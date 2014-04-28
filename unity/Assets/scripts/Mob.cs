@@ -81,8 +81,9 @@ public class Mob : MonoBehaviour {
 	void OnCollisionEnter(Collision collision)
 	{
 		if(collision.gameObject.tag == "weapon")
+		{
 			health = health - player.gameObject.GetComponent<Player> ().get_outputdamage();
-
+		}
 		if (collision.transform.tag == "Player") {
 			Debug.Log ("a sword hit me");
 			Debug.Log(collision.gameObject.animation.IsPlaying("attack_swipe"));
@@ -93,20 +94,12 @@ public class Mob : MonoBehaviour {
 				swordHit.Play();
 
 				health = health - player.gameObject.GetComponent<Player> ().get_outputdamage();
-				
+				Debug.Log (health);
 				this.animation.Play("gethit");
 				this.animation.PlayQueued("idle");
 				
 				
 			}
-			//			int recieveDamage = gameObject.GetComponent <sword>().getDamage();
-			
-
-			
-			//life = life - (collision.gameObject.GetComponent <sword>().getDamage);
-			
-			
-			//collision.gameObject.GetComponent <sword>().getDamage();
 			
 		}
 
