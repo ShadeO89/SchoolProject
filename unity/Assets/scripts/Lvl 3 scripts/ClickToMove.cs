@@ -3,6 +3,7 @@ using System.Collections;
 
 public class ClickToMove : MonoBehaviour 
 {
+
 	public int life = 100;
 	public float speed = 2.0f;
 	public float SnapTo = 0.5f; //how close we get before snapping to the desination
@@ -62,11 +63,11 @@ public class ClickToMove : MonoBehaviour
 
 	void movePlayerToPosition(){
 				if (Vector3.Distance (this.transform.position, position) > 1) {
+						
 						Quaternion newRotation = Quaternion.LookRotation (position - transform.position);
 
 						newRotation *= Quaternion.Euler (0, -90, 0);
 
-	
 						newRotation.x = 0f;
 						newRotation.z = 0f;
 
@@ -88,6 +89,11 @@ public class ClickToMove : MonoBehaviour
 
 		if(Vector3.Distance(this.transform.position, hit)<10) 
 		{
+			Quaternion rotation = Quaternion.LookRotation (hit - transform.position);
+			rotation *= Quaternion.Euler (0, -90, 0);
+			rotation.x = 0;
+			rotation.z = 0;
+			this.transform.rotation = Quaternion.Lerp (transform.rotation, rotation, Time.deltaTime*5);
 			
 			if(Input.GetMouseButton(1))
 			{
