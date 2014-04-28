@@ -119,7 +119,15 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -29.6049805, y: 1.02885687, z: 3.37729859}
+=======
+<<<<<<< HEAD
+  m_LocalPosition: {x: 24.6281548, y: 1.02981138, z: -43.0532722}
+=======
+  m_LocalPosition: {x: -5.21119499, y: 1.01650989, z: 26.009407}
+>>>>>>> a5d9e7c34e499c877c6669bcc7456af78bf43714
+>>>>>>> FETCH_HEAD
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}

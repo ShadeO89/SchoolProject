@@ -4,8 +4,6 @@ using System.Collections;
 public class ClickToMove : MonoBehaviour 
 {
 	public int life = 100;
-	public int damage = 15;
-	public Transform sword;
 	public float speed = 2.0f;
 	public float SnapTo = 0.5f; //how close we get before snapping to the desination
 	private Vector3 position;
@@ -59,11 +57,6 @@ public class ClickToMove : MonoBehaviour
 			}
 		}
 
-		Debug.Log(hit.transform.tag);
-
-
-	
-
 	}
 
 
@@ -90,7 +83,12 @@ public class ClickToMove : MonoBehaviour
 
 
 	void attack(Vector3 hit)
+	
+	{
+
+		if(Vector3.Distance(this.transform.position, hit)<10) 
 		{
+
 		this.animation.Play("attack_swipe");
 		this.animation.PlayQueued("idle");
 		}
@@ -101,3 +99,4 @@ public class ClickToMove : MonoBehaviour
 	//void collide()
 	//bool dead()
 
+}

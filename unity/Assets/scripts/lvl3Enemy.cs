@@ -3,8 +3,8 @@ using System.Collections;
 
 public class lvl3Enemy : MonoBehaviour {
 
+
 	public int life = 35;
-	public int damage = 10;
 	private bool isAttacking;
 	private bool isAlive = true;
 
@@ -32,5 +32,37 @@ public class lvl3Enemy : MonoBehaviour {
 		
 		}
 
+	}
+
+	public void damageTaken(int damage){
+
+
+		life = life - damage;
+
+
+	
+	}
+
+	void OnCollisionEnter(Collision collision){
+		
+
+		Debug.Log ("i've hit somethin'");
+
+		if (collision.transform.tag == "weapon") {
+			Debug.Log ("a sword hit me");
+			int recieveDamage = collision.gameObject.GetComponent <sword>().getDamage();
+
+				life = life - recieveDamage;
+
+			this.animation.Play("gethit");
+
+
+				//life = life - (collision.gameObject.GetComponent <sword>().getDamage);
+			
+			
+			//collision.gameObject.GetComponent <sword>().getDamage();
+			
+		}
+		
 	}
 }
