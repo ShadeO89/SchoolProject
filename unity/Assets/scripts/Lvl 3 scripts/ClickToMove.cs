@@ -20,7 +20,7 @@ public class ClickToMove : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		if (Input.GetMouseButtonDown(0)) {
+		if (Input.GetMouseButton(0) || Input.GetMouseButton(1)) {
 			locatePosition();		
 		//Locate where the Player clicked terrain
 
@@ -88,15 +88,25 @@ public class ClickToMove : MonoBehaviour
 
 		if(Vector3.Distance(this.transform.position, hit)<10) 
 		{
+			
+			if(Input.GetMouseButton(1))
+			{
+				
+				this.animation.Play ("attack_stab");
+				this.animation.PlayQueued("idle");
+				
+				
+			}
+			else {
+					this.animation.Play("attack_swipe");
+					this.animation.PlayQueued("idle");
 
-		this.animation.Play("attack_swipe");
-		this.animation.PlayQueued("idle");
+
+				}
+
+
 		}
-}
+	}
 
-
-	//void attack()
-	//void collide()
-	//bool dead()
 
 }
