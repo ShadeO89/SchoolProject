@@ -504,10 +504,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 247543284}
   - 111: {fileID: 247543288}
-  - 114: {fileID: 247543287}
-  - 54: {fileID: 247543286}
   - 136: {fileID: 247543285}
   - 82: {fileID: 247543289}
+  - 114: {fileID: 247543287}
+  - 143: {fileID: 247543286}
   m_Layer: 0
   m_Name: skeletonNormal
   m_TagString: Enemy
@@ -542,36 +542,39 @@ CapsuleCollider:
   m_Height: 14
   m_Direction: 1
   m_Center: {x: 0, y: 3, z: 0}
---- !u!54 &247543286
-Rigidbody:
+--- !u!143 &247543286
+CharacterController:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5400000, guid: d139727d46a14204285626a8b7ef9525,
-    type: 2}
-  m_PrefabInternal: {fileID: 1081349227}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 247543283}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
+  m_Height: 2
+  m_Radius: .5
+  m_SlopeLimit: 45
+  m_StepOffset: .300000012
+  m_SkinWidth: .0799999982
+  m_MinMoveDistance: 0
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &247543287
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: d139727d46a14204285626a8b7ef9525,
-    type: 2}
-  m_PrefabInternal: {fileID: 1081349227}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 247543283}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17ce5f79a248f1d49944b0c120928ab6, type: 3}
+  m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 35
-  swordHit: {fileID: 247543289}
+  speed: 0
+  range: 0
+  health: 35
+  damage: 2
+  Explosion: {fileID: 0}
+  controller: {fileID: 247543286}
+  die: {fileID: 7400012, guid: 86c591ebd74142c4d93243d9fa9544da, type: 3}
+  attack: {fileID: 7400008, guid: 86c591ebd74142c4d93243d9fa9544da, type: 3}
 --- !u!111 &247543288
 Animation:
   m_ObjectHideFlags: 0
@@ -1164,6 +1167,8 @@ GameObject:
   - 114: {fileID: 555930560}
   - 54: {fileID: 555930559}
   - 143: {fileID: 555930558}
+  - 114: {fileID: 555930563}
+  - 82: {fileID: 555930562}
   m_Layer: 0
   m_Name: warrior_blurby
   m_TagString: Player
@@ -1255,6 +1260,76 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 1
+--- !u!82 &555930562
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 555930556}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: d3c9a22c2875247e8b398964d9dd8954, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &555930563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 555930556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db6932d26d3d4c6ca91b6051df7d2f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  death: {fileID: 555930562}
 --- !u!1 &560145098
 GameObject:
   m_ObjectHideFlags: 0
@@ -2115,7 +2190,9 @@ Prefab:
       propertyPath: swordHit
       value: 
       objectReference: {fileID: 247543289}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5400000, guid: d139727d46a14204285626a8b7ef9525, type: 2}
+    - {fileID: 11400000, guid: d139727d46a14204285626a8b7ef9525, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: d139727d46a14204285626a8b7ef9525, type: 2}
   m_RootGameObject: {fileID: 247543283}
   m_IsPrefabParent: 0
