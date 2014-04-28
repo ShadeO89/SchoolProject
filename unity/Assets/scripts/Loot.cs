@@ -23,6 +23,7 @@ public class Loot : MonoBehaviour {
 			loot += 10;
 			value.text = ""+loot;
 
+
 			Destroy (this.transform.gameObject);
 		}
 
