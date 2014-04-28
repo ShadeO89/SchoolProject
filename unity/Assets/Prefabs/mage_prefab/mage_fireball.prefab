@@ -56,8 +56,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
+<<<<<<< HEAD:unity/Assets/Prefabs/mage_prefab/mage_fireball.prefab
   m_LocalRotation: {x: -.000200492053, y: .801928878, z: .000269124779, w: .5974195}
   m_LocalPosition: {x: -150.63414, y: 4.97999954, z: 275.545807}
+=======
+  m_LocalRotation: {x: -.000699243217, y: -.596910954, z: -.000520232134, w: .802307069}
+  m_LocalPosition: {x: -11.085453, y: 2.81535387, z: 25.7358894}
+>>>>>>> a5d9e7c34e499c877c6669bcc7456af78bf43714:unity/Assets/Prefabs/mage_fireball.prefab
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
