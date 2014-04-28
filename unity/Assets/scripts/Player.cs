@@ -4,18 +4,20 @@ using System.Collections;
 public class Player : MonoBehaviour {
 
 	private int life = 100;
-	public TextMesh value;
+	//public TextMesh value;
 	public AudioSource death;
+	private int damage = 40;
 
 	// Use this for initialization
 	void Start () {
 
-		value.text = ""+life;
+	//	value.text = ""+life;
 	
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 	
 	}
 
@@ -23,13 +25,17 @@ public class Player : MonoBehaviour {
 
 		life -= damage;
 
-		value.text = ""+life;
+	//	value.text = ""+life;
 
 		if (life <= 0) {
 			death.Play ();
 			Destroy (this.gameObject);
 			Application.LoadLevel (Application.loadedLevel);
 		}
+	}
+	public int get_outputdamage()
+	{
+		return damage;
 	}
 
 	void OnCollisionEnter(Collision collision)

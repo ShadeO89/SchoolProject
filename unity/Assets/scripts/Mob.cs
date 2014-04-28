@@ -8,15 +8,12 @@ public class Mob : MonoBehaviour {
 
 	public float speed;
 	public float range;
-	public float bulletPower = 10.0f;
 	public float health = 35;
 	public int damage = 2;
 	public Transform Explosion;
 
 	public CharacterController controller;
-
-	public AnimationClip run;
-	public AnimationClip idle;
+	
 	public AnimationClip die;
 	public AnimationClip attack;
 
@@ -34,27 +31,37 @@ public class Mob : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if (!animation.IsPlaying(die.name)) {
+		if (!animation.IsPlaying("die")) {
 
-			if (!inRange ()) {
+			if (!inRange() ) 
+			{
 				chase ();
 				attackAnimWaitTime = 0;
-			} else {
-				if (attackAnimWaitTime <= 0) {
+			} 
+			else 
+			{
+				if (attackAnimWaitTime <= 0) 
+				{
 					animation.CrossFade (attack.name);
 					player.gameObject.GetComponent<Player> ().receiveDamage (damage);
 					attackAnimWaitTime = attack.length;
-				} else {
+				} 
+				else 
+				{
 					attackAnimWaitTime -= Time.deltaTime;
 				}
 			}
 		}
 	}
 	
-	bool inRange(){
-		if (Vector3.Distance (transform.position, player.position) < range) {
+	bool inRange()
+	{
+		if (Vector3.Distance (transform.position, player.position) < range) 
+		{
 			return true;
-		} else {
+		} 
+		else 
+		{
 			return false;
 		}
 	}
@@ -63,7 +70,7 @@ public class Mob : MonoBehaviour {
 	{
 		transform.LookAt(player.position);
 		controller.SimpleMove(transform.forward*speed);
-		animation.CrossFade(run.name);
+		animation.CrossFade("run");
 	}
 
 	void OnMouseOver()
@@ -73,11 +80,11 @@ public class Mob : MonoBehaviour {
 	void OnCollisionEnter(Collision collision)
 	{
 		if(collision.gameObject.tag == "weapon")
-			health = health - bulletPower;
+			health = health - player.gameObject.GetComponent<Player> ().get_outputdamage();
 		if(health <= 0)
 		{
 
-			animation.CrossFade(die.name);
+			animation.CrossFade("die");
 
 			CharacterController cc = (CharacterController) this.gameObject.GetComponent ("CharacterController");
 			cc.enabled = false;

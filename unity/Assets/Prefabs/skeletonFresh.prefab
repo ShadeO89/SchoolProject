@@ -112,7 +112,8 @@ GameObject:
   - 4: {fileID: 400010}
   - 111: {fileID: 11100004}
   - 136: {fileID: 13600000}
-  - 54: {fileID: 5400000}
+  - 114: {fileID: 11400000}
+  - 143: {fileID: 14300000}
   m_Layer: 0
   m_Name: skeletonFresh
   m_TagString: Enemy
@@ -887,7 +888,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
   m_LocalRotation: {x: 0, y: -.965210259, z: 0, w: .261475176}
-  m_LocalPosition: {x: 7.8476305, y: 3.84281945, z: -15.3021107}
+  m_LocalPosition: {x: -190.44986, y: 47.2663574, z: 287.16626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400084}
@@ -1729,21 +1730,6 @@ MeshFilter:
 --- !u!1002 &3300003
 EditorExtensionImpl:
   serializedVersion: 6
---- !u!54 &5400000
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100010}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 80
-  m_CollisionDetection: 0
 --- !u!111 &11100000
 Animation:
   m_ObjectHideFlags: 1
@@ -1802,6 +1788,26 @@ Animation:
 --- !u!1002 &11100005
 EditorExtensionImpl:
   serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  range: 0
+  bulletPower: 10
+  health: 35
+  damage: 2
+  Explosion: {fileID: 0}
+  controller: {fileID: 14300000}
+  die: {fileID: 7400012, guid: 86c591ebd74142c4d93243d9fa9544da, type: 3}
+  attack: {fileID: 7400008, guid: 86c591ebd74142c4d93243d9fa9544da, type: 3}
 --- !u!136 &13600000
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -1881,6 +1887,20 @@ SkinnedMeshRenderer:
 --- !u!1002 &13700001
 EditorExtensionImpl:
   serializedVersion: 6
+--- !u!143 &14300000
+CharacterController:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: .5
+  m_SlopeLimit: 45
+  m_StepOffset: .300000012
+  m_SkinWidth: .0799999982
+  m_MinMoveDistance: 0
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
