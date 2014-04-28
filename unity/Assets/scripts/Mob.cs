@@ -28,7 +28,7 @@ public class Mob : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
-		player = GameObject.Find ("Gunman").transform;
+		player = GameObject.FindGameObjectWithTag("Player").transform;
 	}
 	
 	// Update is called once per frame
@@ -72,7 +72,7 @@ public class Mob : MonoBehaviour {
 	}
 	void OnCollisionEnter(Collision collision)
 	{
-		if(collision.gameObject.tag == "bullet")
+		if(collision.gameObject.tag == "weapon")
 			health = health - bulletPower;
 		if(health <= 0)
 		{

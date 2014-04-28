@@ -18,12 +18,12 @@ public class Loot : MonoBehaviour {
 
 	void OnCollisionEnter(Collision collision)
 	{
-		if (collision.gameObject.tag == "Loot") 
+		if (collision.gameObject.tag == "Player") 
 		{
 			loot += 10;
 			value.text = ""+loot;
 
-			Destroy (collision.transform.gameObject);
+			Destroy (this.transform.gameObject);
 		}
 
 
