@@ -25,7 +25,7 @@ public class menu : MonoBehaviour {
 	}
 	
 	void OnGUI() {
-		GUI.Label(new Rect(Screen.width / 2 - 100, -30, 200, 100), "TWO GIRLS, ONE CODE");
+		GUI.Label(new Rect(Screen.width / 2 - 100, -30, 200, 100), "SchoolProject");
 		menuFunction();
 	}
 	void anyKey() {
@@ -39,16 +39,16 @@ public class menu : MonoBehaviour {
 	}
 	
 	void mainMenu(){
-		if (GUI.Button(new Rect((screenWidth - buttonWidth) * 0.5f, screenHeight * 0.2f, buttonWidth, buttonHeigth), "Start game")){
+		if (GUI.Button(new Rect((screenWidth - buttonWidth) * 0.9f, screenHeight * 0.2f, buttonWidth, buttonHeigth), "Start game")){
 			Application.LoadLevel(1);
 			//Start game
 		}
-		if (GUI.Button(new Rect((screenWidth - buttonWidth) * 0.5f, screenHeight * 0.4f, buttonWidth, buttonHeigth), "Highscore"))
+		if (GUI.Button(new Rect((screenWidth - buttonWidth) * 0.9f, screenHeight * 0.4f, buttonWidth, buttonHeigth), "Highscore"))
 		{
 			Application.LoadLevel(2);
 			//Loads Highscore
 		}
-		if (GUI.Button(new Rect((screenWidth - buttonWidth) * 0.5f, screenHeight * 0.6f, buttonWidth, buttonHeigth), "TROLL BUTTON"))
+		if (GUI.Button(new Rect((screenWidth - buttonWidth) * 0.9f, screenHeight * 0.6f, buttonWidth, buttonHeigth), "TROLL BUTTON"))
 		{
 			Application.Quit();
 			// Quit game
