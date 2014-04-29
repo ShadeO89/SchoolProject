@@ -41,8 +41,6 @@ public class menu : MonoBehaviour {
 	void mainMenu(){
 		if (GUI.Button(new Rect((screenWidth - buttonWidth) * 0.5f, screenHeight * 0.2f, buttonWidth, buttonHeigth), "Start game")){
 			Application.LoadLevel(1);
-			PlayerPrefs.SetInt("rosaScore", 0);
-			PlayerPrefs.SetInt("violaScore", 0);
 			//Start game
 		}
 		if (GUI.Button(new Rect((screenWidth - buttonWidth) * 0.5f, screenHeight * 0.4f, buttonWidth, buttonHeigth), "Highscore"))
