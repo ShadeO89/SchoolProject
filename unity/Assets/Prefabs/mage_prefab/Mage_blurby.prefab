@@ -746,7 +746,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: b791c0ffdb69de3449e72319ebe71fad, type: 2}
+  - {fileID: 2100000, guid: 4488b02188f40d64d9896a9ab462f30c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -836,7 +836,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: b791c0ffdb69de3449e72319ebe71fad, type: 2}
+  - {fileID: 2100000, guid: 4488b02188f40d64d9896a9ab462f30c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -881,7 +881,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: b791c0ffdb69de3449e72319ebe71fad, type: 2}
+  - {fileID: 2100000, guid: 4488b02188f40d64d9896a9ab462f30c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -971,7 +971,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: b791c0ffdb69de3449e72319ebe71fad, type: 2}
+  - {fileID: 2100000, guid: 4488b02188f40d64d9896a9ab462f30c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1016,7 +1016,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: b791c0ffdb69de3449e72319ebe71fad, type: 2}
+  - {fileID: 2100000, guid: 4488b02188f40d64d9896a9ab462f30c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
