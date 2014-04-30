@@ -108,6 +108,7 @@ GameObject:
   - 143: {fileID: 14300000}
   - 114: {fileID: 11400002}
   - 82: {fileID: 8200000}
+  - 136: {fileID: 13600002}
   m_Layer: 0
   m_Name: warrior_blurby
   m_TagString: Player
@@ -435,7 +436,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100012}
   m_LocalRotation: {x: 0, y: 0, z: -.00352099445, w: .999993861}
-  m_LocalPosition: {x: 1168.26599, y: 1.76290488, z: 465.794159}
+  m_LocalPosition: {x: 2095.54346, y: 3.7252903e-09, z: 972.896423}
   m_LocalScale: {x: .5, y: .5, z: .5}
   m_Children:
   - {fileID: 400022}
@@ -808,7 +809,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ff028cdcfb2f8c4eb0263be0d45b5a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 100
   speed: 15
   SnapTo: 1
   controllerMove: {fileID: 14300000}
@@ -837,6 +837,19 @@ CapsuleCollider:
   m_Height: 15
   m_Direction: 2
   m_Center: {x: 10.8127317, y: -1.70000005, z: 2.79999995}
+--- !u!136 &13600002
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1
+  m_Height: 4
+  m_Direction: 1
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!137 &13700000
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

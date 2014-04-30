@@ -4,7 +4,7 @@ using System.Collections;
 public class ClickToMove : MonoBehaviour 
 {
     //Variables
-	public int life = 100;
+
 	public float speed = 2.0f;
 	public float SnapTo = 0.5f; //how close we get before snapping to the desination
 	private Vector3 position;
