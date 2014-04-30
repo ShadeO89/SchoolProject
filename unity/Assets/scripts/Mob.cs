@@ -78,10 +78,7 @@ public class Mob : MonoBehaviour {
 		animation.CrossFade("run");
 	}
 
-	void OnMouseOver()
-	{
-		//player.GetComponent<Gunner>().opponent = gameObject;
-	}
+
 	void OnCollisionEnter(Collision collision)
 	{
 		if(collision.gameObject.tag == "weapon")
