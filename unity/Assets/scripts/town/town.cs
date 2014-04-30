@@ -52,6 +52,36 @@ public class town : MonoBehaviour {
 		{
 			PlayerPrefs.SetInt("loot",0);
 		}
+		if(!PlayerPrefs.HasKey("damage"))
+		{
+			if(PlayerPrefs.GetString("Char") == "Warrior")
+			{
+				PlayerPrefs.SetInt("damage",20);
+			}
+			else if(PlayerPrefs.GetString("Char") == "Gunman")
+			{
+				PlayerPrefs.SetInt("damage",10);
+			}
+			else if(PlayerPrefs.GetString("Char") == "Mage")
+			{
+				PlayerPrefs.SetInt("damage",50);
+			}
+		}
+		if(PlayerPrefs.HasKey("life"))
+		{
+			if(PlayerPrefs.GetString("Char") == "Warrior")
+			{
+				PlayerPrefs.SetInt("life",250);
+			}
+			else if(PlayerPrefs.GetString("Char") == "Gunman")
+			{
+				PlayerPrefs.SetInt("life",100);
+			}
+			else if(PlayerPrefs.GetString("Char") == "Mage")
+			{
+				PlayerPrefs.SetInt("life",150);
+			}
+		}
 	
 	}
 	
