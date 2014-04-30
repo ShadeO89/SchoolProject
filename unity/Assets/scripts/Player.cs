@@ -39,7 +39,7 @@ public class Player : MonoBehaviour {
 		if (life <= 0) {
 			death.Play ();
 			Destroy (this.gameObject);
-			Application.LoadLevel (Application.loadedLevel);
+			Application.LoadLevel(6);
 		}
 	}
 	public int get_outputdamage()
