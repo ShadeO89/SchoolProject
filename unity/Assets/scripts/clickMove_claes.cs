@@ -114,7 +114,7 @@ public class clickMove_claes : MonoBehaviour {
 				position = new Vector3(hit.point.x , hit.point.y , hit.point.z); //set position to this XYZ
 				this.animation.Play("attack"); //run attack anim
 				this.animation.PlayQueued("idle"); //run idle anim afterwards
-				fireball.transform.position = this.transform.position + this.transform.right*3 + new Vector3(0,5,0); //Setting the position of where the fireball needs to go
+				fireball.transform.position = this.transform.position + this.transform.right*3 + new Vector3(0,3,0); //Setting the position of where the fireball needs to go
 				fireball.transform.rotation = Quaternion.LookRotation (position - transform.position); //Setting rotation of the fireball
 				Instantiate(fireball); //instantiating the fireball
 			}

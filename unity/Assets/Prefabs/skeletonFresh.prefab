@@ -1859,7 +1859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  range: 0
+  range: 3
   health: 35
   damage: 2
   Explosion: {fileID: 0}
