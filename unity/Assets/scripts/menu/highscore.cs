@@ -15,6 +15,9 @@ public class highscore : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+		firstplace = PlayerPrefs.GetInt("firstplace");
+		secondplace = PlayerPrefs.GetInt("secondplace");
+		thirdplace = PlayerPrefs.GetInt("thirdplace");
 		GetScore();
 		checkScore();
 		screenHeight = Screen.height;
@@ -22,6 +25,9 @@ public class highscore : MonoBehaviour {
 		
 		buttonHeigth = screenHeight * 0.1f;
 		buttonWidth = screenWidth * 0.2f;
+		PlayerPrefs.SetInt("firstplace",firstplace);
+		PlayerPrefs.SetInt("secondplace",secondplace);
+		PlayerPrefs.SetInt("thirdplace",thirdplace);
 	
 	}
 	
@@ -33,9 +39,9 @@ public class highscore : MonoBehaviour {
 	{
 
 
-			GUI.Label(new Rect (515, 10 * 1, 300, 500), "1.  " + firstplace); 
-			GUI.Label(new Rect (515, 10 * 2, 300, 500), "2.  " + secondplace); 
-			GUI.Label(new Rect (515, 10 * 3, 300, 500), "3.  " + thirdplace); 
+		GUI.Label(new Rect (515, 10 * 1, 300, 500), "1.  " + firstplace); 
+		GUI.Label(new Rect (515, 10 * 2, 300, 500), "2.  " + secondplace); 
+		GUI.Label(new Rect (515, 10 * 3, 300, 500), "3.  " + thirdplace); 
 
 		if (GUI.Button(new Rect((screenWidth - buttonWidth) * 0.5f, screenHeight * 0.2f, buttonWidth, buttonHeigth), "Return to menu")){
 			Application.LoadLevel(0);
@@ -50,13 +56,16 @@ public class highscore : MonoBehaviour {
 	{
 		if(score > firstplace)
 		{
-			thirdplace = secondplace; secondplace = firstplace; firstplace = score;
+			thirdplace = secondplace; 
+			secondplace = firstplace; 
+			firstplace = score;
 		}
 		else if(score > secondplace)
 		{
-			thirdplace = secondplace; secondplace = score; 
+			thirdplace = secondplace; 
+			secondplace = score; 
 		}
-		if(score > thirdplace)
+		else if(score > thirdplace)
 		{
 			thirdplace = score;
 		}
