@@ -10,7 +10,7 @@ public class clickMove_claes : MonoBehaviour {
 
 	void Start () {
 		//forcing him to start at target position
-		this.transform.position = new Vector3(-200,3,300);
+		//this.transform.position = new Vector3(-200,3,300);
 
 
 	}
