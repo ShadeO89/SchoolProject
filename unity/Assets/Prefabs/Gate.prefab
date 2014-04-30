@@ -14,7 +14,7 @@ GameObject:
   - 54: {fileID: 5400000}
   m_Layer: 0
   m_Name: Gate
-  m_TagString: Untagged
+  m_TagString: obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.9633636, y: .800000012, z: -77.4959259}
+  m_LocalPosition: {x: 24.1435471, y: -1, z: 13.1772423}
   m_LocalScale: {x: 1.95000005, y: 3.5, z: 1.95000005}
   m_Children: []
   m_Father: {fileID: 0}
