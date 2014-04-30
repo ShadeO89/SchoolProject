@@ -56,12 +56,12 @@ public class Player : MonoBehaviour {
 			Application.LoadLevel(3);
 	
 		}
-		else if(col.transform.name == "lvl1")
+		else if(col.transform.name == "lvl2")
 		{
 			Application.LoadLevel(4);
 				
 		}
-		else if(col.transform.name == "lvl1")
+		else if(col.transform.name == "lvl3")
 		{
 			Application.LoadLevel(5);
 				

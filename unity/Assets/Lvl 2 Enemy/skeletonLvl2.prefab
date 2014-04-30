@@ -646,7 +646,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100008}
-  m_LocalRotation: {x: .79865402, y: -.312966168, z: -.0514834151, w: .511422873}
+  m_LocalRotation: {x: .798654079, y: -.312966198, z: -.0514834188, w: .511422932}
   m_LocalPosition: {x: -.0188792795, y: .00773086539, z: -.0246220063}
   m_LocalScale: {x: 1.00000048, y: 1.00000036, z: 1.00000012}
   m_Children:
@@ -671,7 +671,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100012}
-  m_LocalRotation: {x: -9.35964461e-09, y: 5.28081273e-07, z: -.191328019, w: .981526136}
+  m_LocalRotation: {x: -9.3596455e-09, y: 5.2808133e-07, z: -.191328034, w: .981526196}
   m_LocalPosition: {x: -.121829376, y: -.0194349065, z: -2.41398812e-08}
   m_LocalScale: {x: .99999994, y: 1, z: 1}
   m_Children:
@@ -757,7 +757,7 @@ Transform:
   m_GameObject: {fileID: 100026}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 49.9165192, y: -1, z: -82.3477783}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children:
   - {fileID: 400066}
   - {fileID: 400016}
@@ -768,7 +768,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100028}
-  m_LocalRotation: {x: -1.04897269e-09, y: -7.37636707e-09, z: -.140790746, w: .990039349}
+  m_LocalRotation: {x: -1.0489728e-09, y: -7.37636752e-09, z: -.140790761, w: .990039408}
   m_LocalPosition: {x: -.027830733, y: 9.53674295e-09, z: 0}
   m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
   m_Children:
@@ -1121,13 +1121,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 2.29999995
-  bulletPower: 10
   health: 35
   damage: 2
   Explosion: {fileID: 400000, guid: bd943c792514675e464dfc7a8c26d3e0, type: 2}
+  swordHit: {fileID: 0}
   controller: {fileID: 14300000}
-  run: {fileID: 7400004, guid: dda4f2b6eec4142638a7706909aa577c, type: 3}
-  idle: {fileID: 7400002, guid: dda4f2b6eec4142638a7706909aa577c, type: 3}
   die: {fileID: 7400012, guid: dda4f2b6eec4142638a7706909aa577c, type: 3}
   attack: {fileID: 7400008, guid: dda4f2b6eec4142638a7706909aa577c, type: 3}
 --- !u!137 &13700000

@@ -11,14 +11,7 @@ public class clickMove_claes : MonoBehaviour {
 
 	void Start () 
     {
-		//forcing him to start at target position
-<<<<<<< HEAD
-		this.transform.position = new Vector3(-200,3,300);
-=======
-		//this.transform.position = new Vector3(-200,3,300);
 
-
->>>>>>> b42145c9b543751d7ffbdc1d16c79a5977911646
 	}
 	
 

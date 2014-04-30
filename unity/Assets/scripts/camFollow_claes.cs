@@ -28,9 +28,9 @@ public class camFollow_claes : MonoBehaviour {
 			this.transform.position = Character.position + new Vector3(-30,30,0);
 			this.transform.LookAt(Character);
 		}
-		else if(Application.loadedLevelName == "level2")
+		else if(Application.loadedLevelName == "Level 2")
 		{
-			this.transform.position = Character.position + new Vector3(-15,10,0);
+			this.transform.position = Character.position + new Vector3(0,50,-30);
 			this.transform.LookAt(Character);
 		}
 	}
