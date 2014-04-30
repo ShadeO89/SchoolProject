@@ -40,7 +40,48 @@ public class town : MonoBehaviour {
 		{
 			GameObject.FindWithTag("Player").transform.position = new Vector3(47,-1,-84);
 		}
-
+		else if(Application.loadedLevelName == "lvl3")
+		{
+			GameObject.FindWithTag("Player").transform.position = new Vector3(1168,1,465);
+		}
+		else
+		{
+			Debug.Log("i hit an error finding Player, in town.cs");
+		}
+		if(!PlayerPrefs.HasKey("loot"))
+		{
+			PlayerPrefs.SetInt("loot",0);
+		}
+		if(!PlayerPrefs.HasKey("damage"))
+		{
+			if(PlayerPrefs.GetString("Char") == "Warrior")
+			{
+				PlayerPrefs.SetInt("damage",20);
+			}
+			else if(PlayerPrefs.GetString("Char") == "Gunman")
+			{
+				PlayerPrefs.SetInt("damage",10);
+			}
+			else if(PlayerPrefs.GetString("Char") == "Mage")
+			{
+				PlayerPrefs.SetInt("damage",50);
+			}
+		}
+		if(PlayerPrefs.HasKey("life"))
+		{
+			if(PlayerPrefs.GetString("Char") == "Warrior")
+			{
+				PlayerPrefs.SetInt("life",250);
+			}
+			else if(PlayerPrefs.GetString("Char") == "Gunman")
+			{
+				PlayerPrefs.SetInt("life",100);
+			}
+			else if(PlayerPrefs.GetString("Char") == "Mage")
+			{
+				PlayerPrefs.SetInt("life",150);
+			}
+		}
 	
 	}
 	

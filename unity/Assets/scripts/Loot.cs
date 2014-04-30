@@ -3,16 +3,20 @@ using System.Collections;
 
 public class Loot : MonoBehaviour {
 
-	private int loot;
 	public TextMesh value;
+	private int loot;
+	private GameObject cam;
 
 	// Use this for initialization
 	void Start () {
+		loot = PlayerPrefs.GetInt("loot");
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		loot = PlayerPrefs.GetInt("loot");
+		value.text = loot.ToString();
 	
 	}
 
@@ -20,8 +24,11 @@ public class Loot : MonoBehaviour {
 	{
 		if (collision.gameObject.tag == "Player") 
 		{
-			loot += 10;
-			value.text = ""+loot;
+
+			loot = PlayerPrefs.GetInt("loot") +50; 
+			PlayerPrefs.SetInt("loot",loot);
+			//value.text = loot.ToString();
+			Debug.Log (PlayerPrefs.GetInt("loot"));
 
 
 			Destroy (this.transform.gameObject);
@@ -29,4 +36,5 @@ public class Loot : MonoBehaviour {
 
 
 	}
+
 }

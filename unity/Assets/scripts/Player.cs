@@ -3,22 +3,31 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 
-	private int life = 100;
+	private int life;
 	//public TextMesh value;
 	public AudioSource death;
-	private int damage = 20;
+	private int damage;
 
 	// Use this for initialization
 	void Start () {
 
-	//	value.text = ""+life;
+		if(!PlayerPrefs.HasKey("life"))
+		{life = 100; PlayerPrefs.SetInt("life",life);}
+		else
+		{life = PlayerPrefs.GetInt("life");}
+
+		if(!PlayerPrefs.HasKey("damage"))
+		{damage = 40;}
+		else
+		{damage = PlayerPrefs.GetInt("damage");}
+
 	
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-	
+		PlayerPrefs.SetInt("life",life);
 	}
 
 	public void receiveDamage (int damage) {

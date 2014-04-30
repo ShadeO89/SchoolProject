@@ -47,7 +47,7 @@ public class Click2Move : MonoBehaviour
         {
            
             if (Physics.Raycast(ray, out hit)) //did we hit something?
-			if(hit.transform.name != "Crate")//if (hit.transform.name == "Plane" | hit.transform.tag == "Loot" | hit.transform.tag == "trigger") //did we hit the ground?
+				if (hit.transform.name == "Plane" | hit.transform.tag == "Loot" | hit.transform.tag == "trigger" | hit.transform.tag == "forrest" | hit.transform.tag == "Terrain") //did we hit the ground?
                     destination = hit.point; //set the destinatin to the vector3 where the ground was contacted
         }
 		// shooting and changing R/L gun
