@@ -14,6 +14,7 @@ public class char_select : MonoBehaviour {
 		if(Input.GetMouseButtonUp(0))
 		{
 			set_char();
+			Application.LoadLevel(2);
 		}
 	
 	}
