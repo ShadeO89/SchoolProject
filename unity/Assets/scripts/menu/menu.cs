@@ -81,7 +81,7 @@ public class menu : MonoBehaviour {
 		}
 		if (GUI.Button(new Rect((screenWidth - buttonWidth) * 0.9f, screenHeight * 0.4f, buttonWidth, buttonHeigth), "Highscore"))
 		{
-			Application.LoadLevel(2);
+			Application.LoadLevel(6);
 			//Loads Highscore
 		}
 		if (GUI.Button(new Rect((screenWidth - buttonWidth) * 0.9f, screenHeight * 0.6f, buttonWidth, buttonHeigth), "Quit"))
