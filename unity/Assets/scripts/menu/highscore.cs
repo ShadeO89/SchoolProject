@@ -15,6 +15,11 @@ public class highscore : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+
+		firstplace = PlayerPrefs.GetInt("firstplace");
+		secondplace = PlayerPrefs.GetInt("secondplace");
+		thirdplace = PlayerPrefs.GetInt("thirdplace");
+		
 		GetScore();
 		checkScore();
 		screenHeight = Screen.height;
@@ -22,7 +27,11 @@ public class highscore : MonoBehaviour {
 		
 		buttonHeigth = screenHeight * 0.1f;
 		buttonWidth = screenWidth * 0.2f;
-	
+
+		PlayerPrefs.SetInt("firstplace",firstplace);
+		PlayerPrefs.SetInt("secondplace",secondplace);
+		PlayerPrefs.SetInt("thirdplace",thirdplace);
+		
 	}
 	
 	// Update is called once per frame
@@ -31,6 +40,7 @@ public class highscore : MonoBehaviour {
 	}
 	void OnGUI() 
 	{
+
 
 
 			GUI.Label(new Rect (515, 10 * 1, 300, 500), "1.  " + firstplace); 
@@ -50,13 +60,18 @@ public class highscore : MonoBehaviour {
 	{
 		if(score > firstplace)
 		{
-			thirdplace = secondplace; secondplace = firstplace; firstplace = score;
+
+		thirdplace = secondplace; 
+			secondplace = firstplace; 
+			firstplace = score;
 		}
 		else if(score > secondplace)
 		{
-			thirdplace = secondplace; secondplace = score; 
+			thirdplace = secondplace; 
+			secondplace = score; 
 		}
-		if(score > thirdplace)
+		else if(score > thirdplace)
+
 		{
 			thirdplace = score;
 		}
