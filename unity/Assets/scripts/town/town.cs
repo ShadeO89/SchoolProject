@@ -25,6 +25,16 @@ public class town : MonoBehaviour {
 		else
 		{
 			Debug.Log ("i hit an error, cannot load any characters");
+			Application.Quit();
+			//Instantiate(mage);
+		}
+		if(Application.loadedLevelName == "Town")
+		{
+			GameObject.FindWithTag("Player").transform.position = new Vector3(25,0,25);
+		}
+		else if(Application.loadedLevelName == "lvl1")
+		{
+			GameObject.FindWithTag("Player").transform.position = new Vector3(-200,3,300);
 		}
 
 	

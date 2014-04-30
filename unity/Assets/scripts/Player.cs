@@ -41,7 +41,35 @@ public class Player : MonoBehaviour {
 	void OnCollisionEnter(Collision collision)
 	{
 		if(collision.gameObject.tag == "Goal")
-			Application.LoadLevel (Application.loadedLevel);
+			Application.LoadLevel (2);
+
+		if(Application.loadedLevelName == "Town")
+		{
+			goToLevel(collision);
+		}
+
+	}
+	void goToLevel(Collision col)
+	{
+		if(col.transform.name == "lvl1")
+		{
+			Application.LoadLevel(3);
+	
+		}
+		else if(col.transform.name == "lvl1")
+		{
+			Application.LoadLevel(4);
+				
+		}
+		else if(col.transform.name == "lvl1")
+		{
+			Application.LoadLevel(5);
+				
+		}
+		else
+		{
+			Debug.Log("i hit something else than gates");
+		}
 	}
 
 }

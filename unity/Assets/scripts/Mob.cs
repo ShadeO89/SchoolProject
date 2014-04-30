@@ -26,12 +26,16 @@ public class Mob : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
-		player = GameObject.FindGameObjectWithTag("Player").transform;
+
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
+		if(player == null)
+		{
+			player = GameObject.FindGameObjectWithTag("Player").transform;
+		}
 		if (!animation.IsPlaying("die")) {
 
 			if (!inRange() ) 
