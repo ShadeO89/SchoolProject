@@ -2,8 +2,7 @@
 using System.Collections;
 
 public class Loot : MonoBehaviour {
-
-	public TextMesh value;
+	
 	private int loot;
 	private GameObject cam;
 
@@ -16,7 +15,7 @@ public class Loot : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		loot = PlayerPrefs.GetInt("loot");
-		value.text = loot.ToString();
+
 	
 	}
 
@@ -27,7 +26,6 @@ public class Loot : MonoBehaviour {
 
 			loot = PlayerPrefs.GetInt("loot") +50; 
 			PlayerPrefs.SetInt("loot",loot);
-			//value.text = loot.ToString();
 			Debug.Log (PlayerPrefs.GetInt("loot"));
 
 
