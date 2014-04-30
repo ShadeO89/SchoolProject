@@ -40,7 +40,18 @@ public class town : MonoBehaviour {
 		{
 			GameObject.FindWithTag("Player").transform.position = new Vector3(47,-1,-84);
 		}
-
+		else if(Application.loadedLevelName == "lvl3")
+		{
+			GameObject.FindWithTag("Player").transform.position = new Vector3(1168,1,465);
+		}
+		else
+		{
+			Debug.Log("i hit an error finding Player, in town.cs");
+		}
+		if(!PlayerPrefs.HasKey("loot"))
+		{
+			PlayerPrefs.SetInt("loot",0);
+		}
 	
 	}
 	

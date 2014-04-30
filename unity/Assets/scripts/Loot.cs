@@ -3,11 +3,12 @@ using System.Collections;
 
 public class Loot : MonoBehaviour {
 
-	private int loot;
 	public TextMesh value;
+	private int loot;
 
 	// Use this for initialization
 	void Start () {
+		loot = PlayerPrefs.GetInt("loot");
 	
 	}
 	
@@ -20,8 +21,11 @@ public class Loot : MonoBehaviour {
 	{
 		if (collision.gameObject.tag == "Player") 
 		{
-			loot += 10;
-			value.text = ""+loot;
+
+			loot = PlayerPrefs.GetInt("loot") +50; 
+			PlayerPrefs.SetInt("loot",loot);
+			value.text = loot.ToString();
+			Debug.Log (PlayerPrefs.GetInt("loot"));
 
 
 			Destroy (this.transform.gameObject);
