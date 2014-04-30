@@ -740,8 +740,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -1419,8 +1419,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -3386,8 +3386,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -4510,8 +4510,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -11128,8 +11128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -13545,8 +13545,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -13933,6 +13933,47 @@ Transform:
   m_Children:
   - {fileID: 1708728088}
   m_Father: {fileID: 1813862994}
+--- !u!1 &318388196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 318388198}
+  - 114: {fileID: 318388197}
+  m_Layer: 0
+  m_Name: spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &318388197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 318388196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7709465d24d1046ba0b7e75de7a581, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  spawntime: 5
+  enemy: {fileID: 100008, guid: d139727d46a14204285626a8b7ef9525, type: 2}
+--- !u!4 &318388198
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 318388196}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1533.01562, y: 440.0896, z: 377.838409}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &318718065
 GameObject:
   m_ObjectHideFlags: 0
@@ -22628,8 +22669,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -24775,8 +24816,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -25758,8 +25799,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -25949,8 +25990,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -27702,8 +27743,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -29509,8 +29550,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -30384,8 +30425,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -30721,8 +30762,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -31733,8 +31774,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -33415,8 +33456,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -34017,8 +34058,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -36158,8 +36199,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -41938,8 +41979,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -45511,8 +45552,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -46872,8 +46913,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -53273,8 +53314,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -56024,8 +56065,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -56807,8 +56848,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -57970,8 +58011,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -58214,8 +58255,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -59798,8 +59839,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -60041,8 +60082,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -64896,8 +64937,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -65854,8 +65895,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -66657,8 +66698,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -67752,8 +67793,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -67943,8 +67984,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -69623,8 +69664,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -69943,8 +69984,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -70912,8 +70953,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -72356,8 +72397,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -72603,8 +72644,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -73414,8 +73455,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -75736,8 +75777,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -79490,8 +79531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -80495,8 +80536,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -80760,8 +80801,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -81151,8 +81192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -82007,8 +82048,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -86593,8 +86634,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -87159,8 +87200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -87860,8 +87901,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -89023,8 +89064,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -89782,8 +89823,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -90981,8 +91022,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -93121,8 +93162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -93367,8 +93408,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -94161,8 +94202,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
@@ -94460,8 +94501,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9215d41d79573b4f953dbd185d68737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  range: 0
+  speed: 3
+  range: 5
   health: 35
   damage: 2
   Explosion: {fileID: 0}
