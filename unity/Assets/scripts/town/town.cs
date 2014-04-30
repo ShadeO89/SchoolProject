@@ -38,7 +38,7 @@ public class town : MonoBehaviour {
 		}
 		else if(Application.loadedLevelName == "Level 2")
 		{
-			GameObject.FindWithTag("Player").transform.position = new Vector3(47,0,-84);
+			GameObject.FindWithTag("Player").transform.position = new Vector3(47,-0.5f,-84);
 		}
 		else if(Application.loadedLevelName == "lvl3")
 		{
