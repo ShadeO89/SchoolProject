@@ -708,7 +708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 0
-  fireball: {fileID: 100002, guid: ac3bacb241852ff4fa04aaf4a40916b1, type: 2}
+  fireball: {fileID: 100002, guid: 2b90c55ee313c764d8e5a8026363cf39, type: 2}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
